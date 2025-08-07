@@ -1,12 +1,12 @@
 # Dropbox
 
-Connect your Dropbox source to Aiimi Insight Engine to make the most of the data.&#x20;
+Connect your Dropbox source to Workplace AI to make the most of the data.&#x20;
 
 <details>
 
 <summary>Dropbox Prerequisites</summary>
 
-There are some additional permissions that are required to connect Aiimi Insight Engine and Dropbox. Ensure the following permissions are checked:
+There are some additional permissions that are required to connect Workplace AI and Dropbox. Ensure the following permissions are checked:
 
 * account\_info.read
 * files.content.read
@@ -24,7 +24,7 @@ There are some additional permissions that are required to connect Aiimi Insight
 
 <summary>Credential Requirements</summary>
 
-Dropbox requires a Client ID and Secrets credential within your Aiimi Insight Engine. [For support setting up a credential see our Create a Credential guide.](../../../../security/credentials.md)
+Dropbox requires a Client ID and Secrets credential within your Workplace AI. [For support setting up a credential see our Create a Credential guide.](../../../../security/credentials.md)
 
 * **Client ID** - Use the Dropbox App Key.
   * This can be found within Dropbox on the Settings tab.

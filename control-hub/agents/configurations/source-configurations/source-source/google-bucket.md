@@ -1,6 +1,6 @@
 # Google Bucket
 
-Connect your Google Bucket source to Aiimi Insight Engine to make the most of the data on your machines. Once you have selected a Source System type more detail will expand to customise this.\
+Connect your Google Bucket source to Workplace AI to make the most of the data on your machines. Once you have selected a Source System type more detail will expand to customise this.\
 
 
 ## Source System Settings
@@ -50,4 +50,4 @@ Matches: “allmydocs/me.docx” & “allmydogs.txt”&#x20;
 
 Soft delete preserves objects and buckets that are deleted or overwritten for a certain period of time.&#x20;
 
-Aiimi Insight Engine crawls buckets and objects that have been soft deleted so we can remove them from our index. Anything past the soft delete retention period will be permanently deleted by Google and cannot be crawled by AIimi Insight Engine.
+Workplace AI crawls buckets and objects that have been soft deleted so we can remove them from our index. Anything past the soft delete retention period will be permanently deleted by Google and cannot be crawled by Workplace AI.

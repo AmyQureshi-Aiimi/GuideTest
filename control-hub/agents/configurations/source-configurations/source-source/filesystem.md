@@ -1,13 +1,13 @@
 # Filesystem
 
-Connect your filesystem source to Aiimi Insight Engine to make the most of the data on your machines. Once you have selected a Source System type more detail will expand to customise this.\
+Connect your filesystem source to Workplace AI to make the most of the data on your machines. Once you have selected a Source System type more detail will expand to customise this.\
 Source System Settings.
 
 <details>
 
 <summary>Preserving Last Accessed Dates</summary>
 
-You can preserve the last accessed date of files to help them identify files that have not been used for a specified period. There are some required permissions that allow Insight Engine to preserve this date attribute. If you don't want Aiimi Insight Engine to preserve the last accessed date the standard read permissions are ok.
+You can preserve the last accessed date of files to help them identify files that have not been used for a specified period. There are some required permissions that allow Insight Engine to preserve this date attribute. If you don't want Workplace AI to preserve the last accessed date the standard read permissions are ok.
 
 ### Additional Permissions
 
@@ -23,7 +23,7 @@ On an NTFS filesystem to preserve last accessed dates the following advanced per
 
 We recommend testing content retrieval on a small sub-set of your documents or a dedicated test area to ensure no errors occur in the Insight Engine Source Agent logs. If the Source Agent is unable to set the last accessed date, then this attribute will be lost for all files crawled and set to the last crawl date.
 
-## Aiimi Insight Engine Configuration
+## Workplace AI Configuration
 
 1. Within your Source configuration ensure 'Preserve last access date' is checked.&#x20;
    * This setting is on the Source tab under Retrieval Options.
@@ -116,7 +116,7 @@ These settings will be used when mounting to a Linux environment and will be ign
 
 ## Content Management
 
-Allow Aiimi Insight Engine to change a read-only flag on an item before deleting it. The read-only field will be changed as part of a delete action.
+Allow Workplace AI to change a read-only flag on an item before deleting it. The read-only field will be changed as part of a delete action.
 
 If this it not enabled, items flagged as read-only will remain on the course system and will not be deleted. &#x20;
 

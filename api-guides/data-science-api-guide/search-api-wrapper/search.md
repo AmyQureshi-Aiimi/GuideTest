@@ -1,6 +1,6 @@
 # Search
 
-Search allows a standard search of Aiimi Insight Engine, as if it were entered in enterprise search. It returns a DataSample object which has a .df property, a pandas data frame.&#x20;
+Search allows a standard search of Workplace AI, as if it were entered in enterprise search. It returns a DataSample object which has a .df property, a pandas data frame.&#x20;
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

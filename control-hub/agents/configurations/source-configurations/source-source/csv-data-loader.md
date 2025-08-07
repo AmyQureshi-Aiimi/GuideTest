@@ -1,6 +1,6 @@
 # CSV Data Loader
 
-If you want to load structured or unstructured data from a CSV use the CSV data loader. Connect a BIM360 source to Aiimi Insight Engine to make the most of your data.&#x20;
+If you want to load structured or unstructured data from a CSV use the CSV data loader. Connect a BIM360 source to Workplace AI to make the most of your data.&#x20;
 
 {% hint style="info" %}
 To complete this you must have a published Data Model for this data.

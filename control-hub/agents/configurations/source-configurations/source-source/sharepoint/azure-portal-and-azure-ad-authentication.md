@@ -121,5 +121,5 @@ A signed certificate is needed to authenticate and connect between the two syste
        ```
        {% endcode %}
 2. Ensure you have uploaded the generated certificate to the Registered Azure Application in Azure Portal.
-3. Create a Certificate Credential within Aiimi Insight Engine using the .pfx certificate file.
+3. Create a Certificate Credential within Workplace AI using the .pfx certificate file.
    * For support setting up credentials use [our guide on managing credentials.](../../../../../security/credentials.md)

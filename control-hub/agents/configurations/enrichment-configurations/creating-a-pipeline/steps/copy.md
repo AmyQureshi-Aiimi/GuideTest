@@ -1,6 +1,6 @@
 # Copy
 
-This copies items from one source to another. Copy needs to be enabled on the source within Aiimi Insight Engine and the underlying credentials used to access the source need write permissions.
+This copies items from one source to another. Copy needs to be enabled on the source within Workplace AI and the underlying credentials used to access the source need write permissions.
 
 <details>
 
@@ -12,7 +12,7 @@ Destination Location, Folder Path and File Name can be constructed of hardcoded 
 
 Placeholders can be a core property, metadata value or an entity value that exist against an indexed file.&#x20;
 
-You can use entities and metadata within Aiimi Insight Engine as placeholders (use the prefix "entities." or "metadata."). You can use nested properties by referencing the path. Ffor example, {entities.pii.emailAddress} would replace the placeholder with the emailAddress property from the PII Entity group.
+You can use entities and metadata within Workplace AI as placeholders (use the prefix "entities." or "metadata."). You can use nested properties by referencing the path. Ffor example, {entities.pii.emailAddress} would replace the placeholder with the emailAddress property from the PII Entity group.
 
 There is an option to have a safe fallback on the placeholder for if the value is null, this can be achieved using a pipe within the placeholder, for example {metadata.important|"unimportant"} - this will look for a metadata field named important, if it exists the property will be used, otherwise it will use unimportant as the value.
 

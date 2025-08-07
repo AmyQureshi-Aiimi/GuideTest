@@ -18,6 +18,6 @@
 * Archive Files - This archives your files, it does not copy them from your source.
   * **We recommend talking to your Aiimi contact before ticking this option.**&#x20;
   * Helpful for decommissioning a legacy system.
-  * Can only be used when migrating to Aiimi insight Engine.
+  * Can only be used when migrating to Workplace AI.
 
 <figure><img src="../../../../.gitbook/assets/image (732).png" alt="" width="563"><figcaption></figcaption></figure>

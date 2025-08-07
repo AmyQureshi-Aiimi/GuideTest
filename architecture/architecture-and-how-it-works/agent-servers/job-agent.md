@@ -1,6 +1,6 @@
 # Job Agent
 
-The job agent runs index backups and scripts required for Aiimi Insight Engine to run smoothly. It also runs the notification agent, recommendation engines and some machine learning services.
+The job agent runs index backups and scripts required for Workplace AI to run smoothly. It also runs the notification agent, recommendation engines and some machine learning services.
 
 [View our guide to configuring a Job](../../../control-hub/agents/configurations/job-configurations/).
 

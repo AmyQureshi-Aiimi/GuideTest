@@ -1,6 +1,6 @@
 # Google Drive
 
-Connect your Google Drive system to Aiimi Insight Engine to make the most of the data.
+Connect your Google Drive system to Workplace AI to make the most of the data.
 
 {% hint style="info" %}
 Public and Private Google Drives must be configured separately.
@@ -14,7 +14,7 @@ Your Google Cloud environment must be configured to allow the connector access t
 
 <summary>Google Cloud Project</summary>
 
-Aiimi Insight Engine's Google Drive Connector needs a project. A Google Cloud Project is required for Google Cloud Services such as managing APIs and resource permissions.
+Workplace AI's Google Drive Connector needs a project. A Google Cloud Project is required for Google Cloud Services such as managing APIs and resource permissions.
 
 For information on creating a project [see Google's documentation on creating and managing projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects). ([https://cloud.google.com/resource-manager/docs/creating-managing-projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects))
 
@@ -24,7 +24,7 @@ For information on creating a project [see Google's documentation on creating an
 
 <summary>Required APIs</summary>
 
-Aiimi Insight Engine's Google Drive Connector requires 3 APIs to be enabled on the relevant project.
+Workplace AI's Google Drive Connector requires 3 APIs to be enabled on the relevant project.
 
 1. Activity API
 2. Google Drive API
@@ -60,15 +60,15 @@ Any role intended to be Organisation Unit specific can only include the followin
 4. Chrome Management
 5. Shared device settings
 
-**Personal Google Drives** - The delegated user will be limited to Personal Google Drives within their Organisational Unit. This ensures only the intended drives are discovered and crawled by Aiimi Insight Engine.
+**Personal Google Drives** - The delegated user will be limited to Personal Google Drives within their Organisational Unit. This ensures only the intended drives are discovered and crawled by Workplace AI.
 
-**Shared/Team Drives** - The delegated user must be a member with at least "Viewer" level access of each drive. This ensures only the intended drives are discovered and crawled by Aiimi Insight Engine.&#x20;
+**Shared/Team Drives** - The delegated user must be a member with at least "Viewer" level access of each drive. This ensures only the intended drives are discovered and crawled by Workplace AI.&#x20;
 
 **For last access dates** -  There are 3 additional settings needed on the service account to track Google Last Access Dates.  The Admin SDK API must be enabled for your Service Account. It must have a new custom role with Admin Console privilege of Reports. It must have read only access to the audits. [https://www.googleapis.com/auth/admin.reports.audit.readonly](https://www.googleapis.com/auth/admin.reports.audit.readonly)
 
 _Please note, these capabilities will be ignored if Calculate Last Accessed Date for Deltas is not enabled._
 
-**For file actions such as Delete** - The delegated user must be a "Manager" of the relevant drive. Only "Managers" are able to delete files from a Shared Google Drive. This ensures that only the Shared Drives connected to Aiimi Insight Engine can have files deleted.
+**For file actions such as Delete** - The delegated user must be a "Manager" of the relevant drive. Only "Managers" are able to delete files from a Shared Google Drive. This ensures that only the Shared Drives connected to Workplace AI can have files deleted.
 
 For more information on service accounts [see Google's documentation on Creating a service account](https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount). ([https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount](https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount))
 
@@ -78,13 +78,13 @@ For more information on service accounts [see Google's documentation on Creating
 
 <summary>API Secret Key</summary>
 
-Your service account requires an API secret key for a secure connection. The secret key is used as a secret-only credential in Aiimi Insight Engine.
+Your service account requires an API secret key for a secure connection. The secret key is used as a secret-only credential in Workplace AI.
 
 * _We recommend you download the key as a JSON file when prompted._
 
 Once generated your private key will be downloaded to your machine. You must store this securely as Google does not store it and you cannot regenerate it.
 
-Once the JSON is downloaded, use its contents to create a secret-only credential in Aiimi Insight Engine.
+Once the JSON is downloaded, use its contents to create a secret-only credential in Workplace AI.
 
 _For support setting up a secret-only credential_ [see our guide on creating secret-only credentials.](../../../../security/credentials.md)
 
@@ -119,7 +119,7 @@ For more information on delegating authority [see Google's documentation on Dele
 1. The Drive Labels API must be enabled within your Google Cloud Project.
 2. Ensure the following scope is added to your API Domain Wide Delegation
    * &#x20;[https://www.googleapis.com/auth/drive.labels.readonly](https://www.googleapis.com/auth/drive.labels.readonly)
-3. Check you have the entities you need within Aiimi Insight Engine and create new ones where needed.&#x20;
+3. Check you have the entities you need within Workplace AI and create new ones where needed.&#x20;
    * _For support setting up entities use_ [_our guide on entity creation and management_](../../../../mappings/entities/)_._
 
 
@@ -159,7 +159,7 @@ The GoogleDirectory security must be configured before. [See our guide on Config
 
 ## Security Synchronisation
 
-1. **Security Configuration:** Select the security configuration the crawler will use to synchronise Google Directory and Aiimi Insight Engine users.
+1. **Security Configuration:** Select the security configuration the crawler will use to synchronise Google Directory and Workplace AI users.
    * [See our guide on Configuring the Google Directory Security.](../../security-configurations/security-source/google-directory.md)
 
 <figure><img src="../../../../../.gitbook/assets/image (776).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -189,7 +189,7 @@ There are additional service account and API requirements for this. See the serv
 
 ### Deleting
 
-1. **Remove Data From Missing Drives:** Check this to remove previously crawled Google Drives that are no longer accessible from Aiimi Insight Engine.
+1. **Remove Data From Missing Drives:** Check this to remove previously crawled Google Drives that are no longer accessible from Workplace AI.
 2. **Enable Soft Delete:** Check this to move files with Content Management Delete Actions on them to the Google Drive recycle bin.
    * By default Google Drive recycling bins permanently delete items that have been in them for 30 days.
    * If not checked, files will be permanently deleted.&#x20;
@@ -200,8 +200,8 @@ There are additional service account and API requirements for this. See the serv
 
 When mappings are in place and a crawl is run, files will be indexed with relevant Google Drive Labels mapped as Entities.
 
-1. **Add new item** - Select this to add a new entity mapping between Aiimi Insight Engine and Google Drive.
-2. **Left column** - Enter the Aiimi Insight Engine entity name. e.g. entities.project.code
+1. **Add new item** - Select this to add a new entity mapping between Workplace AI and Google Drive.
+2. **Left column** - Enter the Workplace AI entity name. e.g. entities.project.code
    * This is case-sensitive.
 3. **Right column** - Enter the Google Drive label and field name. e.g. MyDriveLabel.MyDriveLabelField
    * This is case-sensitive and must match Google Drive exactly.

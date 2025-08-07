@@ -1,6 +1,6 @@
 # Authentication
 
-Configure the authentication method best for your business. You can use Windows, SAML 2 or ADFS to authenticate Aiimi Insight Engine. There are also some additional authentication security features that can be used in dev or test environments.
+Configure the authentication method best for your business. You can use Windows, SAML 2 or ADFS to authenticate Workplace AI. There are also some additional authentication security features that can be used in dev or test environments.
 
 ## Windows Authentication
 
@@ -14,14 +14,14 @@ Use Windows Authentication to authenticate objects, services and users. It will 
 
 ## SAML2 Authentication
 
-SAML2 is an open standard that allows single sign-on (SSO) of applications. It is used to authenticate a user and allow them to gain access to Aiimi Insight Engine.&#x20;
+SAML2 is an open standard that allows single sign-on (SSO) of applications. It is used to authenticate a user and allow them to gain access to Workplace AI.&#x20;
 
-1. **SAML 2 Authentication** - If checked SAML2 will be used for Aiimi Insight Engines Authentication.
+1. **SAML 2 Authentication** - If checked SAML2 will be used for Workplace AIs Authentication.
 2. **Application identifier** - Enter the identifier of the Application in the identity provider.
 3. **Issuer** - Enter the issuer of the Identity Provider.&#x20;
 4. **Sign On URL** - Enter the endpoint URL for signing in to the authenticator.
 5. **Logout URL** - Enter the endpoint URL for logging out of the authenticator.
-6. **App URL** - Enter the endpoint for Aiimi Insight Engine Search application that will complete the login.&#x20;
+6. **App URL** - Enter the endpoint for Workplace AI Search application that will complete the login.&#x20;
    * Use {0} as a placeholder for the host and port to access the API.
 7. **Signature Validation Certificate** - Enter the filepath for the public certificate used to validate token signatures.&#x20;
 
@@ -31,7 +31,7 @@ SAML2 is an open standard that allows single sign-on (SSO) of applications. It i
 
 ## ADFS
 
-Aiimi Insight Engine supports ADFS for single sign on. A private key needs to be generated and network changes are required before ADFS is enabled. The copy of the certificate will need to be added to each server running IIS and hosting Aiimi insight Engine.&#x20;
+Workplace AI supports ADFS for single sign on. A private key needs to be generated and network changes are required before ADFS is enabled. The copy of the certificate will need to be added to each server running IIS and hosting Workplace AI.&#x20;
 
 1. Check Enable ADFS Authentication use ADFS.&#x20;
 2. **ADFS URL** - Enter the ADFS URL.

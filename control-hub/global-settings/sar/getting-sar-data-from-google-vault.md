@@ -1,10 +1,10 @@
 # Getting SAR data from Google Vault
 
-When gathering data for a SAR that can also include data from a Google Vault not connected to Aiimi Insight Engine as a Source.
+When gathering data for a SAR that can also include data from a Google Vault not connected to Workplace AI as a Source.
 
 ### Creating a Job for Google
 
-A Job must be configured to run periodically for Aiimi Insight Engine to gather information from Google. This must be configured with Control Hub.
+A Job must be configured to run periodically for Workplace AI to gather information from Google. This must be configured with Control Hub.
 
 Complete 5 simple steps to set up a Google Vault Job Configuration.
 
@@ -16,9 +16,9 @@ Complete 5 simple steps to set up a Google Vault Job Configuration.
 
 ### How does the Google Vault SAR work?
 
-1. A job will run periodically checking for in progress SARs within Aiimi Insight Engine.
+1. A job will run periodically checking for in progress SARs within Workplace AI.
 2. All search terms from in progress SARs are prepared for the Google Vault SAR Job.
-3. The Google Vault SAR job will run and Aiimi Insight Engine will turn the search terms into "Matter" within Google Vault.
+3. The Google Vault SAR job will run and Workplace AI will turn the search terms into "Matter" within Google Vault.
 4. The "Matter" is then used to search in Google Vault for related results.
 5. Any found results will be exported to your designated SAR Import destinations source.
 6. These file are also added to the relevant SAR document lists.

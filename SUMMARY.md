@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introducing Aiimi Insight Engine](README.md)
+* [Introducing Workplace AI](README.md)
 
 ## Architecture
 
@@ -36,7 +36,7 @@
 ## Installation
 
 * [Elastic and Kibana Install (Windows)](installation/elastic-and-kibana-install-windows.md)
-* [Aiimi Insight Engine Installation (Windows)](installation/aiimi-insight-engine-installation-windows/README.md)
+* [Workplace AI Installation (Windows)](installation/aiimi-insight-engine-installation-windows/README.md)
   * [Installation Security](installation/aiimi-insight-engine-installation-windows/installation-security.md)
   * [Certificates in a Key Vault](installation/aiimi-insight-engine-installation-windows/certificates-in-a-key-vault.md)
   * [SAR Configuration](installation/aiimi-insight-engine-installation-windows/sar-configuration.md)

@@ -61,7 +61,7 @@ New-PnPAzureCertificate -OutPfx pnp.pfx -OutCert pnp.cer -CertificatePassword (C
 2. Save the certificate files in your preferred location and give them a strong password. &#x20;
    * Make sure both the .cer and .pfx files are saved.  \
      The .cer (public key) will be uploaded to the registered application in Azure Portal.  \
-     The .pfx (private key) will be uploaded to the Credential Store in Aiimi Insight Engine Control Hub.&#x20;
+     The .pfx (private key) will be uploaded to the Credential Store in Workplace AI Control Hub.&#x20;
 
 ### Apply the certificate to the registered application&#x20;
 
@@ -120,7 +120,7 @@ The **Sites.Read.All** API permission has been applied to the registered applica
 
 ## AIE Control Hub – Credentials&#x20;
 
-Now everything is configured in Azure Portal, you need to create credentials in Aiimi Insight Engine's Control Hub.&#x20;
+Now everything is configured in Azure Portal, you need to create credentials in Workplace AI's Control Hub.&#x20;
 
 ### Create a Certificate credential&#x20;
 
@@ -139,7 +139,7 @@ Now everything is configured in Azure Portal, you need to create credentials in 
    * Only valid certificates can be uploaded.&#x20;
 9. Select Create.&#x20;
 
-Your new certificate credential is now in the Aiimi Insight Engine Credential Store.&#x20;
+Your new certificate credential is now in the Workplace AI Credential Store.&#x20;
 
 ### Troubleshooting
 
@@ -176,7 +176,7 @@ If you get an error about the expiry date or network password, check they are co
    * It must not be in the past or after the secret’s expiry date.&#x20;
 8. Select Create.&#x20;
 
-Your new secret credential is now in the Aiimi Insight Engine Credential Store.&#x20;
+Your new secret credential is now in the Workplace AI Credential Store.&#x20;
 
 ***
 
@@ -187,12 +187,12 @@ If you enabled “Use Graph API for permissions” you will likely want to disco
 A file or folder, which is shared with a SharePoint group, is discovered via the SharePoint source connector. The connector will tag files with the name of the SharePoint group in the permission object.&#x20;
 
 {% hint style="info" %}
-For permission trimming in Aiimi Insight Engine, we must know the SharePoint groups a user belongs to.
+For permission trimming in Workplace AI, we must know the SharePoint groups a user belongs to.
 {% endhint %}
 
 Members of a SharePoint group are exploded onto an item during crawl time when using **Sites.FullControl.All**. If using the Graph API for permissions, we can only access the SharePoint group names not who is in them. &#x20;
 
-The SharePoint Security plugin allows for a secondary security sync. It maps users from SharePoint to users in Aiimi Insight Engine. The SharePoint group membership is applied to each principles Groups property. This is done in a secondary security index.&#x20;
+The SharePoint Security plugin allows for a secondary security sync. It maps users from SharePoint to users in Workplace AI. The SharePoint group membership is applied to each principles Groups property. This is done in a secondary security index.&#x20;
 
 ### Creating a SharePoint Security configuration&#x20;
 
@@ -258,7 +258,7 @@ Now the registered application, credentials and security are set up, you can con
 1. On the Permissions tab.
 2. **Security Configuration** – Enter the configuration ID of the SharePoint Security configuration you made earlier.&#x20;
    * This is not required if you are running permissionless crawls.
-   * This is very important for permission trimming in Aiimi Insight Engine. It is validated when saving the source configuration.&#x20;
+   * This is very important for permission trimming in Workplace AI. It is validated when saving the source configuration.&#x20;
 3. Select Save.&#x20;
 
 You are now ready to run a crawl using Read-Only API permissions instead of ACS.&#x20;

@@ -33,7 +33,7 @@ Only synchronise security enable groups is a predefined filter equal to (securit
 
 The user sync area should be used to filter in and out users from synchronising and also adding group.
 
-1. **Users Filters:** Create filters used when synchronising users to Aiimi Insight Engine. Create the filters using Parameter Syntax.
+1. **Users Filters:** Create filters used when synchronising users to Workplace AI. Create the filters using Parameter Syntax.
 2. **Synchronise Checkbox Setting:** Control what users synchronise by checking either:
    * Synchronise federated (on-premise) users.
    * Synchronise managed (Azure AD) users.

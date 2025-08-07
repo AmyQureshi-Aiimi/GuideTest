@@ -1,6 +1,6 @@
 # Atlassian
 
-Synchronise users and groups from your Atlassian system into Aiimi Insight Engine.
+Synchronise users and groups from your Atlassian system into Workplace AI.
 
 1. **Security System:** Select Atlassian from the dropdown.
 

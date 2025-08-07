@@ -1,6 +1,6 @@
 # Mimecast
 
-Mimecast is an email security company that protects emails from threats like spam, malware, and phishing. Aiimi Insight Engine connects to their cloud email archive service.
+Mimecast is an email security company that protects emails from threats like spam, malware, and phishing. Workplace AI connects to their cloud email archive service.
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ Mimecast is an email security company that protects emails from threats like spa
 
 <summary>Mimecast Service Account</summary>
 
-Aiimi Insight Engine requires a Mimecast Service Account. For information on creating a Service account [see Mimecast's documentation on creating a service account user.](https://community.mimecast.com/s/article/api-integrations-managing-api-1-0-for-cloud-gateway#Creating-a-service-account-user)
+Workplace AI requires a Mimecast Service Account. For information on creating a Service account [see Mimecast's documentation on creating a service account user.](https://community.mimecast.com/s/article/api-integrations-managing-api-1-0-for-cloud-gateway#Creating-a-service-account-user)
 
 </details>
 
@@ -16,7 +16,7 @@ Aiimi Insight Engine requires a Mimecast Service Account. For information on cre
 
 <summary>Service Account Roles</summary>
 
-Your service account requires certain roles to allow Aiimi Insight Engine to crawl Mimecast. For information on service account permissions [see Mimecast's documentation on Granting API Service Account User Permissions.](https://community.mimecast.com/s/article/api-integrations-managing-api-1-0-for-cloud-gateway#Granting-API-Service-Account-User-Permissions)
+Your service account requires certain roles to allow Workplace AI to crawl Mimecast. For information on service account permissions [see Mimecast's documentation on Granting API Service Account User Permissions.](https://community.mimecast.com/s/article/api-integrations-managing-api-1-0-for-cloud-gateway#Granting-API-Service-Account-User-Permissions)
 
 **We require the following roles to be assigned:**
 
@@ -29,7 +29,7 @@ Your service account requires certain roles to allow Aiimi Insight Engine to cra
 
 <summary>2.0 API Key</summary>
 
-Aiimi Insight Engine requires the Mimecast 2.0 API.
+Workplace AI requires the Mimecast 2.0 API.
 
 For information on generating an API key [see Mimecast's video explaining how to generate an API Key.](https://video.mimecast.com/watch/SmxPgxFWfoXPh4Jw2NrNG5?)
 

@@ -4,7 +4,7 @@ There are a few ways you can control your data and document security. You can li
 
 ## Access Controls
 
-Fundamental to Aiimi Insight Engine is the enforced access control rules. The access control rules dictate who can see a piece of data or content.
+Fundamental to Workplace AI is the enforced access control rules. The access control rules dictate who can see a piece of data or content.
 
 Users are members of groups, that are usually synchronised from an Active Directory. Every piece of data and content has a list of groups that can access it. When a user performs a search they will only see items where their group has the relevant permissions.
 
@@ -44,7 +44,7 @@ Privileged access is an optional feature and must be explicitly granted by an ad
 
 Sources represent either different repositories or areas of a repository. For example, you may have a source for SharePoint HR and SharePoint Asset.
 
-* Control which sources are visible within each app of Aiimi Insight Engine.
+* Control which sources are visible within each app of Workplace AI.
   * You can limit the application it is available within from the source configuration.&#x20;
   * If you disable a source in Enterprise Search, even if a user has permission to see the documents, they will never see this content via the Search app.
 * Limit who can see and access a source anywhere in the application. Within a source's configuration, you can add which users and groups can access it.
@@ -57,7 +57,7 @@ For more information [see our guide on configuring a source.](../../control-hub/
 
 ## Classification
 
-Aiimi Insight Engine can automatically classify data and content. This could be business classifications, such as types of accounts payable document, i.e., invoice, purchase order, goods receipts. Or it could be security classifications, such as public, internal, restricted and top secret.
+Workplace AI can automatically classify data and content. This could be business classifications, such as types of accounts payable document, i.e., invoice, purchase order, goods receipts. Or it could be security classifications, such as public, internal, restricted and top secret.
 
 Using classifications, you can also add additional controls like, who can see items, or where information can be sent. You can also use these classifications to help inform and automate information security policies.
 
@@ -81,7 +81,7 @@ Security classifications allow you to apply additional security on top of the st
 
 ### Risk Ratings
 
-The Aiimi Insight Engine can calculate the potential risk of a piece of data or content.&#x20;
+The Workplace AI can calculate the potential risk of a piece of data or content.&#x20;
 
 It's based on the items PII data:&#x20;
 
@@ -99,7 +99,7 @@ For more information on Risk Ratings see [our enrichment guide for Setting Docum
 
 ### Redaction and Anonymisation
 
-Redact the information in your documents within a SAR or Collection. You can redact specific parts like PII and PCI or select the sections of content you want to redact. The redacted items are only available on Aiimi Insight Engine, the source is not affected.&#x20;
+Redact the information in your documents within a SAR or Collection. You can redact specific parts like PII and PCI or select the sections of content you want to redact. The redacted items are only available on Workplace AI, the source is not affected.&#x20;
 
 For support setting up redaction use [our guide on redacting information.](../../control-hub/global-settings/viewer.md#redacted-document-storage)
 

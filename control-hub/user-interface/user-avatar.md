@@ -22,7 +22,7 @@ To allow users to customise their avatars a storage system for these must be con
 3. **Access Key Type:** Select the key type from the dropdown, either Account or SAS.
 4. **Select Credential:** Choose a credential for this from the dropdown.
 5. **Azure Container ID:** Enter the root Azure Container ID for this storage.
-6. **Add content-types to blobs:** Check this to show content types when this blob is accessed outside of Aiimi Insight Engine.
+6. **Add content-types to blobs:** Check this to show content types when this blob is accessed outside of Workplace AI.
 
 <figure><img src="../../.gitbook/assets/image (839).png" alt="" width="563"><figcaption></figcaption></figure>
 

@@ -25,7 +25,7 @@ Create and manage File Groups and what Extensions make them. These are pre-confi
 
 Administrators can define a group which can be used as a container for multiple AD Groups.
 
-* You can create a Group called “Aiimi Insight Engine Compliance Users” and add the AD groups to that group which contain all compliance users.&#x20;
+* You can create a Group called “Workplace AI Compliance Users” and add the AD groups to that group which contain all compliance users.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (893).png" alt="" width="563"><figcaption></figcaption></figure>
 

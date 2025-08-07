@@ -11,7 +11,7 @@ ChatBot(search_api: SearchAPI, search_flow: str, initial_prompt: str, access_lev
 {% endcode %}
 
 `search_api`\
-An instance of the SearchAPI object used to connect to the AI Enrichment (Aiimi Insight Engine) platform.&#x20;
+An instance of the SearchAPI object used to connect to the AI Enrichment (Workplace AI) platform.&#x20;
 
 `search_flow`\
 A string representing the ID of the search flow to be used for chat interactions.&#x20;
@@ -20,7 +20,7 @@ A string representing the ID of the search flow to be used for chat interactions
 A string containing the initial prompt for the chat.&#x20;
 
 `access_level`\
-An integer representing the Aiimi Insight Engine access level, defaulting to 0.&#x20;
+An integer representing the Workplace AI access level, defaulting to 0.&#x20;
 
 `max_results`\
 An optional integer to override the maximum number of results for Retrieval-Augmented Generation (RAG). Defaults to the configured value for the search flow or 10 if not specified.&#x20;

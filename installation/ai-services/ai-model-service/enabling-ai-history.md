@@ -13,7 +13,7 @@ cd C:\InsightMaker\Utils\InsightMaker.IndexUtilities
 You can check this was successful by logging into the Control Hub.
 
 1. Go to Mappings then Models.
-   * You should see an Aiimi Insight Engine group with two models within it.
+   * You should see a Workplace AI group with two models within it.
 
 ***
 
@@ -27,7 +27,7 @@ You can check this was successful by logging into the Control Hub.
 1. **Configuration ID:** Enter ai\_history.
 2. **Configuration Description:** Enter AI History.
 3. **Manage:** Under visibility uncheck manage.
-4. **Mapped Data Models:** Select Aiimi Insight Engine AI from the dropdown.
+4. **Mapped Data Models:** Select Workplace AI AI from the dropdown.
 
 <figure><img src="../../../.gitbook/assets/image (100).png" alt="" width="563"><figcaption></figcaption></figure>
 

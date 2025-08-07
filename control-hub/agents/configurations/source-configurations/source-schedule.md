@@ -1,6 +1,6 @@
 # Source - Schedule
 
-Choose when and how regularly source syncs get run. This gets new, updated and deleted documents into Aiimi Insight Engine. All times are in Coordinated Universal Time (UTC).
+Choose when and how regularly source syncs get run. This gets new, updated and deleted documents into Workplace AI. All times are in Coordinated Universal Time (UTC).
 
 ## Periodically
 

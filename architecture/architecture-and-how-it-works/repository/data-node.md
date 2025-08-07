@@ -10,4 +10,4 @@ Large production systems commonly have servers with 8+ CPUS, 32GB-64GB of RAM an
 
 We recommend you allocate half the memory to Elasticsearch and the remaining to the operating systems disk cache. This memory balance is key to Elasticsearch performance.
 
-* For Aiimi Insight Engine it is common to see performance improve when more memory is given to the operating system.
+* For Workplace AI it is common to see performance improve when more memory is given to the operating system.

@@ -1,11 +1,11 @@
 # Swagger Documentation
 
-Aiimi Insight Engine is configured out of the box to provide dynamic Swagger documentation. This documentation allows you to inspect the API endpoints and test them.
+Workplace AI is configured out of the box to provide dynamic Swagger documentation. This documentation allows you to inspect the API endpoints and test them.
 
 To access the Swagger documentation open a browser and navigate to:
 
 * [swagger.aiimi.cloud](http://swagger.aiimi.cloud)
-* Replace the server address with that or your Aiimi Insight Engine instance.
+* Replace the server address with that or your Workplace AI instance.
 
 ### Authentication
 

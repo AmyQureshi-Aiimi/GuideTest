@@ -7,7 +7,7 @@ Customise the access of users from the user settings page in the Control Hub. Yo
 You can see all All Users or only those with Custom Access. A use will be in custom access if they have had a permission changed on this page above their normal group permissions.
 
 * Select **Custom Access** for users who have had settings applied manually in the Control Hub.
-* Select **All Users** for a list of all users with access to Aiimi Insight Engine.
+* Select **All Users** for a list of all users with access to Workplace AI.
 
 ***
 
@@ -16,9 +16,9 @@ You can see all All Users or only those with Custom Access. A use will be in cus
 1. Find the user you want to edit.
    * You can search for a user in the search box or use your filters to narrow down the user list.
 2. Select edit on the user you want to change.
-3. Check or uncheck the areas of Aiimi Insight Engine to set the this users access.
+3. Check or uncheck the areas of Workplace AI to set the this users access.
    * **All Files** - Give users Privileged Access allowing them to view all documents and data.
-   * **All Apps** - Give the user access to all of the apps available within Aiimi Insight Engine.
+   * **All Apps** - Give the user access to all of the apps available within Workplace AI.
    * **Reply to Feedback** - Give users the ability to reply to feedback left by others.
 4. Users can be added to Additional Groups by typing the name of the group you want to add them to.
 5. Once you have finished select save to confirm these settings or cancel to revert back to previous settings.&#x20;

@@ -1,6 +1,6 @@
 # Featured Links
 
-Featured links are URLs that will show when a user searches a specific term within Aiimi Insight Engine. Typically, featured links are used for corporate systems, such as annual leave, timesheets, and expenses.
+Featured links are URLs that will show when a user searches a specific term within Workplace AI. Typically, featured links are used for corporate systems, such as annual leave, timesheets, and expenses.
 
 When you create a featured link you can add a URL, description and search terms. They are shown towards the top of the Insight App of a user searches when a featured link matches.&#x20;
 

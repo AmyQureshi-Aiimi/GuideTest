@@ -1,6 +1,6 @@
 # SARs From The Portal
 
-Allow customers, consumers or employees to request a Subject Access Request directly from the Disclosure Portal. Requests are populated by the requestor and automatically added to Aiimi insight Engine.
+Allow customers, consumers or employees to request a Subject Access Request directly from the Disclosure Portal. Requests are populated by the requestor and automatically added to Workplace AI.
 
 1. **Enable requests from the Disclosure Portal** - Check this to allow requests to be submitted via the disclosure portal.&#x20;
 

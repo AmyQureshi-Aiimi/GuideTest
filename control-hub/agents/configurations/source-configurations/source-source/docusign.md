@@ -1,6 +1,6 @@
 # DocuSign
 
-Connect your DocuSign system to Aiimi Insight Engine to make the most of the data.&#x20;
+Connect your DocuSign system to Workplace AI to make the most of the data.&#x20;
 
 ## Prerequisites&#x20;
 
@@ -8,7 +8,7 @@ Connect your DocuSign system to Aiimi Insight Engine to make the most of the dat
 
 <summary>(1) A new integration key must be created within DocuSign's eSignature Admin Dashboard in the Apps and Keys section.</summary>
 
-* This will be used by Aiimi Insight Engine to authenticate you with your DocuSign organisation. It will need admin consent to impersonate users. The user and key for this integration are needed for configuration in Aiimi Insight Engine.
+* This will be used by Workplace AI to authenticate you with your DocuSign organisation. It will need admin consent to impersonate users. The user and key for this integration are needed for configuration in Workplace AI.
 
 For information on creating an integration key [see DocuSign's documentation, Add Integration Keys.](https://support.docusign.com/s/document-item?language=en_US\&bundleId=pik1583277475390\&topicId=lzz1583277395470.html&_LANG=enus) ([https://support.docusign.com/s/document-item?language=en\_US\&bundleId=pik1583277475390\&topicId=lzz1583277395470.html&\_LANG=enus](https://support.docusign.com/s/document-item?language=en_US\&bundleId=pik1583277475390\&topicId=lzz1583277395470.html&_LANG=enus))
 
@@ -18,7 +18,7 @@ For information on creating an integration key [see DocuSign's documentation, Ad
 
 <summary>(2) An RSA keypair must be configured for this integration. </summary>
 
-* This is configured during the Service Integration creation. The private key of this pair should be stored as a secret-only credential within Aiimi Insight Engine.&#x20;
+* This is configured during the Service Integration creation. The private key of this pair should be stored as a secret-only credential within Workplace AI.&#x20;
 
 For information on configuring an RSA keypair [see DocuSign's documentation, Add Integration Keys.](https://support.docusign.com/s/document-item?language=en_US\&bundleId=pik1583277475390\&topicId=lzz1583277395470.html&_LANG=enus) ([https://support.docusign.com/s/document-item?language=en\_US\&bundleId=pik1583277475390\&topicId=lzz1583277395470.html&\_LANG=enus](https://support.docusign.com/s/document-item?language=en_US\&bundleId=pik1583277475390\&topicId=lzz1583277395470.html&_LANG=enus))
 

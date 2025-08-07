@@ -1,6 +1,6 @@
 # Websites
 
-Connect your Website source to Aiimi Insight Engine to make the most of your data. Once you have selected a Source System type more detail will expand to customise this.\
+Connect your Website source to Workplace AI to make the most of your data. Once you have selected a Source System type more detail will expand to customise this.\
 General
 
 1. Enter the URL within the website to crawl in to Start Website URLs.

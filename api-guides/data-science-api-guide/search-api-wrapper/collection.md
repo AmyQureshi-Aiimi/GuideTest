@@ -112,7 +112,7 @@ SearchAPI.get_user(user_id="me", raw=False)
 
 ## Get Settings&#x20;
 
-Used to return the Aiimi Insight Engine settings dictionary, which can be used to determine various things about the configured system, including details on search flows, configured DSAR and disclosure settings, theming etc.&#x20;
+Used to return the Workplace AI settings dictionary, which can be used to determine various things about the configured system, including details on search flows, configured DSAR and disclosure settings, theming etc.&#x20;
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```

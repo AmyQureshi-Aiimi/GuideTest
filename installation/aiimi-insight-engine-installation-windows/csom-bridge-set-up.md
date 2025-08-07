@@ -4,7 +4,7 @@
 This is for Windows Only.
 {% endhint %}
 
-The CSOM Bridge is for Windows applications only. It hosts a REST API that connects Aiimi Insight Engine systems written in .NET to on-premises SharePoint instances. The SharePointLegacy source requires the CSOM Bridge service to be a proxy that make calls to SharePoint.
+The CSOM Bridge is for Windows applications only. It hosts a REST API that connects Workplace AI systems written in .NET to on-premises SharePoint instances. The SharePointLegacy source requires the CSOM Bridge service to be a proxy that make calls to SharePoint.
 
 {% hint style="info" %}
 If you require the CSOM Bridge to be deployed on a dedicated host please speak to your Aiimi contact.
@@ -15,7 +15,7 @@ If you require the CSOM Bridge to be deployed on a dedicated host please speak t
 <summary>Prerequisites</summary>
 
 1. The latest version of .NET Framework 4.8 must be installed.
-2. Aiimi Insight Engine must be installed.
+2. Workplace AI must be installed.
 
 </details>
 
@@ -25,7 +25,7 @@ If you require the CSOM Bridge to be deployed on a dedicated host please speak t
 
 In order to query site collections, CSOM extensions must be installed on the SharePoint server. For help installing these [see Microsoft's guide on New CSOM API for Sharepoint Servers](https://learn.microsoft.com/en-gb/archive/blogs/sharepointdevelopersupport/new-csom-api-for-sharepoint-server-2016-tenant-getsiteproperties).
 
-### Aiimi Insight Engine
+### Workplace AI
 
 1. Open the appsettings.json file for CSOMBridge
    * \<IM\_ROOT>\Utils\InsightMaker.CSOMBridge\appsettings.json

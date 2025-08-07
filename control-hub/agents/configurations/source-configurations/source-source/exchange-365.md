@@ -1,6 +1,6 @@
 # Exchange 365
 
-Connect your Exchange 365 source to Aiimi Insight Engine to make the most of the data.
+Connect your Exchange 365 source to Workplace AI to make the most of the data.
 
 ## **Initial Configuration Steps**
 

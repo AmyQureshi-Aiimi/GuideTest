@@ -28,7 +28,7 @@ You may want to disable searches for a number of reasons:\
 \- Inappropriate or sensitive terms.\
 \- Users who have left the business.
 
-1. Within Aiimi Insight Engine Control Hub select Global Settings.
+1. Within Workplace AI Control Hub select Global Settings.
 2. Select Bulk Search.
 3. Within the table find the bulk search you are looking for. You can find for a bulk search using the search bar.&#x20;
 4. Select the status toggle to switch the status.
@@ -40,7 +40,7 @@ You may want to disable searches for a number of reasons:\
 
 If a search is deleted from here it will also be deleted from the users bulk search list. This will delete the Search and any related Notifications for all Users.
 
-1. Within Aiimi Insight Engine Control Hub select Global Settings.
+1. Within Workplace AI Control Hub select Global Settings.
 2. Select Bulk Search.
 3. Within the table find the bulk search you are looking for. You can find for a bulk search using the search bar.&#x20;
 4. Select Delete Bulk Search from in the row of the item you want to delete.

@@ -1,6 +1,6 @@
 # OCR Agent
 
-To get the most out of images and PDFs within Aiimi Insight Engine an OCR agent converts them to text and image-over-text pdf files. This means you can:
+To get the most out of images and PDFs within Workplace AI an OCR agent converts them to text and image-over-text pdf files. This means you can:
 
 * Search the contents of a PDF or image file.
 * See hit highlighting on a PDF or image file.
@@ -18,4 +18,4 @@ The enrichment pipeline invokes the OCR agent through the OcrRest enrichment ste
 
 For light OCR loads the agent can share a server with other agents such as enrichment and source agents.&#x20;
 
-If you are OCR’ing lots of content then you will want to run this agent on a dedicated server. The initial load to Aiimi Insight Engine may require increases computing power but can be reduced once you are processing deltas.
+If you are OCR’ing lots of content then you will want to run this agent on a dedicated server. The initial load to Workplace AI may require increases computing power but can be reduced once you are processing deltas.

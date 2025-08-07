@@ -2,19 +2,19 @@
 
 ## Entities&#x20;
 
-Entities store labels that are then associated with data and document items. Entities help discover, link and visualise information in Aiimi Insight Engine. Entities can also help unify labels with the same name. It can pull data and documents from other systems, that would otherwise be impossible to link.
+Entities store labels that are then associated with data and document items. Entities help discover, link and visualise information in Workplace AI. Entities can also help unify labels with the same name. It can pull data and documents from other systems, that would otherwise be impossible to link.
 
 [Read more in our Entities guide.](entities/)
 
 ## Models
 
-Create relationships and ingest datasets which then adhere to these data models within Aiimi Insight Engine.  Users can then navigate the structure of different datasets and related files. Data sources are CSV, XML and JSON data loaders. These are found in the sources section, under configurations. You can also load data into a model through a custom load process.
+Create relationships and ingest datasets which then adhere to these data models within Workplace AI.  Users can then navigate the structure of different datasets and related files. Data sources are CSV, XML and JSON data loaders. These are found in the sources section, under configurations. You can also load data into a model through a custom load process.
 
 [Read more in our Models guide.](models/)
 
 ## Vectors
 
-Vectors are used to enable semantic search within Aiimi Insight Engine. Items within your system are vectorised during a Python Rest Enrichment Step and grouped together based on the vectors created in mappings.&#x20;
+Vectors are used to enable semantic search within Workplace AI. Items within your system are vectorised during a Python Rest Enrichment Step and grouped together based on the vectors created in mappings.&#x20;
 
 [Read more in our Vectors guide.](vectors.md)
 

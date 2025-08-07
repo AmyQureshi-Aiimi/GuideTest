@@ -1,6 +1,6 @@
 # Create an Entity
 
-Entities live within groups and are labels that can be associated with data and documents. They help discover, link and visualise information in Aiimi Insight Engine.
+Entities live within groups and are labels that can be associated with data and documents. They help discover, link and visualise information in Workplace AI.
 
 ## Add an Entity
 

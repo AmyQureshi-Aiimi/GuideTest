@@ -23,7 +23,7 @@ In order to find the files to load you need to complete the Database tab.
 6. Enter the Elastic field names in Parameters, that will be used to calculate parameter values via a max aggregation.
    * This field must be DateTIME or Long.
 7. When processing a file if an error occurs you can choose what folder the file goes to. Add the Log Path so you can find the errors in the future.
-8. You can run a limited number of rows as a test for processing. It will run the process on that number of rows and they will be processed to Aiimi Insight Engine. Enter the number of rows that should be processed to Rows To Process.
+8. You can run a limited number of rows as a test for processing. It will run the process on that number of rows and they will be processed to Workplace AI. Enter the number of rows that should be processed to Rows To Process.
    * If left blank all rows will be processed.
    * This is also beneficial of the database has query or row limits.
 9. If a file is using something other than Pipes to separate multi-values you can choose it from Multi-value Delimiter.

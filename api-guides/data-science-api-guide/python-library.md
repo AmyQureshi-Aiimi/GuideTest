@@ -1,18 +1,18 @@
 # Python Library
 
-The Aiimi Insight Engine python library provides various wrappers and utilities for use with Aiimi Insight Engine. Its primary purpose is to provide shared code used by the python AI Enrichment, AI Model and AI Classification services. However, the various available wrappers are also useful for building bespoke scripts or applications powered by Aiimi Insight Engine. This documentation covers all currently available wrappers.
+The Workplace AI python library provides various wrappers and utilities for use with Workplace AI. Its primary purpose is to provide shared code used by the python AI Enrichment, AI Model and AI Classification services. However, the various available wrappers are also useful for building bespoke scripts or applications powered by Workplace AI. This documentation covers all currently available wrappers.
 
 <details>
 
 <summary>Prerequisites</summary>
 
-When installing the python library to use with an AI Enrichment, AI Model or AI Classification service, the listed requirements for that service should be installed before the Aiimi Insight Engine library.&#x20;
+When installing the python library to use with an AI Enrichment, AI Model or AI Classification service, the listed requirements for that service should be installed before the Workplace AI library.&#x20;
 
 </details>
 
 ## Installation
 
-The Aiimi Insight Engine python library is published with InsightMaker.Python releases. Please ensure you install the python library version associated with your Aiimi Insight Engine version. The python library is distributed as a python wheel file.&#x20;
+The Workplace AI python library is published with InsightMaker.Python releases. Please ensure you install the python library version associated with your Workplace AI version. The python library is distributed as a python wheel file.&#x20;
 
 Python wheel file example: AiimiInsightEngine-0.5.0-py3-none-any.whl \
 &#xNAN;_(The version number will vary depending on release)_.&#x20;
@@ -25,7 +25,7 @@ Python wheel file example: AiimiInsightEngine-0.5.0-py3-none-any.whl \
 
 ### Installing Offline
 
-The Aiimi Insight Engine library has its own requirements, separate from those required by the services which pip will install with Aiimi Insight Engine. When working in an offline environment or one behind a proxy which prevents access to The Python Package Index, these installs will fail. In this scenario, you need to provide the required wheels in a local directory and run:&#x20;
+The Workplace AI library has its own requirements, separate from those required by the services which pip will install with Workplace AI. When working in an offline environment or one behind a proxy which prevents access to The Python Package Index, these installs will fail. In this scenario, you need to provide the required wheels in a local directory and run:&#x20;
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```python

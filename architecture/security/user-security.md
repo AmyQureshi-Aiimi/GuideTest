@@ -6,7 +6,7 @@ There are a few ways you can control your user security. You can determine who h
 
 Before getting access to the app or its content, users need to be authenticated. Authentication is the process of proving you are who you say you are.
 
-Aiimi Insight Engine provides two ways for users to authenticate:​
+Workplace AI provides two ways for users to authenticate:​
 
 1. Login using a username and password.
 2. Single sign-on (SSO).​
@@ -27,7 +27,7 @@ For more information [see our guide on the Code of Conduct](../../control-hub/us
 
 ## App and Role Based Access
 
-You can control who can access what within Aiimi Insight Engine using groups. Each app can be locked down to specific groups or users.&#x20;
+You can control who can access what within Workplace AI using groups. Each app can be locked down to specific groups or users.&#x20;
 
 For more information [see our guide on Application Access.](../../control-hub/security/application-access.md)
 

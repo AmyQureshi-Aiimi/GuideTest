@@ -1,6 +1,6 @@
 # Data Views
 
-The graph allows you to visualise the items Aiimi Insight Engine has crawled, processed or enriched. You can choose to view your data in a way that works for you.
+The graph allows you to visualise the items Workplace AI has crawled, processed or enriched. You can choose to view your data in a way that works for you.
 
 ### **Graph Options**
 
@@ -10,9 +10,9 @@ The graph allows you to visualise the items Aiimi Insight Engine has crawled, pr
 
 Choose how your data is grouped. Changing your category will adjust the graph to show the selected category.
 
-* **Status** - Group items scanned or enriched by Aiimi Insight Engine by their status.
-* **Extension** - Group items scanned or enriched by Aiimi Insight Engine by their file extensions.
-* **Source** - Group items scanned or enriched by Aiimi Insight Engine by their source system.
+* **Status** - Group items scanned or enriched by Workplace AI by their status.
+* **Extension** - Group items scanned or enriched by Workplace AI by their file extensions.
+* **Source** - Group items scanned or enriched by Workplace AI by their source system.
 
 </details>
 

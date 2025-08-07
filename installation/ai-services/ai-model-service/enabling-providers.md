@@ -8,7 +8,7 @@ We are working to replace these steps with a user interface in Control Hub.
 
 ## **Export**
 
-1. Navigate to the utils folder in your Aiimi Insight Engine installation.
+1. Navigate to the utils folder in your Workplace AI installation.
    * On a a multi-server enrichment, you can pick any where Index Utils are set up.
 2. Navigate to `InsightMaker.IndexUtils`
 3. Export your AI Registration Configuration using the following command: `InsightMaker.IndexUtilities.exe export --ai-registration-configuration C:\tmp\ai.json`

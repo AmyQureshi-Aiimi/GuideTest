@@ -1,8 +1,8 @@
 # Viewer
 
-Set your PDF Tron licence using the Viewer page. Setting this will provide an enhanced preview experience for users in Aiimi Insight Engine.
+Set your PDF Tron licence using the Viewer page. Setting this will provide an enhanced preview experience for users in Workplace AI.
 
-This allows users to preview the text content of a document within Aiimi Insight Engine. Users no longer need to download document or be redirected to open documents in its source location. This means users can review documents for compliance purposes and more gather further insights.&#x20;
+This allows users to preview the text content of a document within Workplace AI. Users no longer need to download document or be redirected to open documents in its source location. This means users can review documents for compliance purposes and more gather further insights.&#x20;
 
 ## Viewer Configuration
 
@@ -76,7 +76,7 @@ Information can be redacted from items within a SAR or a collection. In order fo
 
 ## Watermarking
 
-Configure and control the watermarks users are allowed to add to items within Aiimi Insight Engine. Watermarking can be toggled on and off using the toggle within Control Hub.
+Configure and control the watermarks users are allowed to add to items within Workplace AI. Watermarking can be toggled on and off using the toggle within Control Hub.
 
 1. Select the New Watermark button to create a new watermark.
    * This will open a New Watermark Wizard.

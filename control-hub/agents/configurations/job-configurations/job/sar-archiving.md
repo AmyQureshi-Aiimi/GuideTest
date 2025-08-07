@@ -1,6 +1,6 @@
 # SAR Archiving
 
-This job looks for Completed or cancelled SARs within Aiimi Insight Engine. It then compares them to the lifecycle settings configured. As a SAR reaches a specific time the job will remove the relevant response data from the SAR.
+This job looks for Completed or cancelled SARs within Workplace AI. It then compares them to the lifecycle settings configured. As a SAR reaches a specific time the job will remove the relevant response data from the SAR.
 
 {% hint style="info" %}
 You must enable SAR lifecycle archiving within SAR settings. [For help turning SAR Archiving on see our SAR Import Guide.](../../../../global-settings/sar/importing-data-for-a-sar.md)

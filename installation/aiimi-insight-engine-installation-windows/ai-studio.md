@@ -4,9 +4,9 @@
 
 <summary><strong>Fresh Install Prerequisites</strong></summary>
 
-For a fresh Aiimi Insight Engine Install you will need to complete the build for Aiimi Insight Engine first.
+For a fresh Workplace AI Install you will need to complete the build for Workplace AI first.
 
-For guidance on this process see our Aiimi Insight Engine Installation guides.
+For guidance on this process see our Workplace AI Installation guides.
 
 </details>
 

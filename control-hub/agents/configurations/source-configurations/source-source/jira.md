@@ -1,6 +1,6 @@
 # Jira
 
-Connect a Jira source to Aiimi Insight Engine to make the most of your data. This includes the ability to be able to connect to Jira Service Desk.
+Connect a Jira source to Workplace AI to make the most of your data. This includes the ability to be able to connect to Jira Service Desk.
 
 1. **Source System:** Select Jira from the dropdown.
 
@@ -9,7 +9,7 @@ Connect a Jira source to Aiimi Insight Engine to make the most of your data. Thi
 1. **Select Credential:** Search and select the credential that will be used to connect to Jira from the dropdown.
    * _For support setting up credentials use_ [_our guide on managing credentials._](../../../../security/credentials.md)
 2. **jira Security Sync:** Enter the ID of a configured Jira security sync.
-   * This sync allows Aiimi Insight Engine to connect user groups from Jira and Aiimi Insight Engine users. This helps ensure the permissions from Jira are upheld.
+   * This sync allows Workplace AI to connect user groups from Jira and Workplace AI users. This helps ensure the permissions from Jira are upheld.
 3. **Worspace ID of the Jira Space:** Enter the base URL of the Jira workspace that should be crawled.
    * Example - https://yourworkspaceid.atlassian.net/
 4. **Board Name of the Jira project:** Enter the name of the Jira project board that should be crawled.

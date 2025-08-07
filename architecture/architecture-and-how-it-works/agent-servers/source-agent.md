@@ -15,7 +15,7 @@ Source agents can bulk load information from back-end systems, perform deltas an
 
 ### Metadata
 
-Source agents pull out metadata like name, location, created and modified date for discovered items. It also pulls the access control list for every item. This list is used to control who can access what data and documents in Aiimi Insight Engine.
+Source agents pull out metadata like name, location, created and modified date for discovered items. It also pulls the access control list for every item. This list is used to control who can access what data and documents in Workplace AI.
 
 ### Source System Settings
 

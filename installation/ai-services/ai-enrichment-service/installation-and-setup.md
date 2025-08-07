@@ -42,7 +42,7 @@ We recommend you get the service running from the command line first so you can 
       5. Run the following on the target server, replacing the path to the temporary folder as appropriate.
          1. `pip install --no-index --find-links C:/tmp/libs -r requirements_3.12.8.txt`
 2. Run `pip install AiimiInsightEngine-0.4.2-py3-none-any.whl`
-   * This will install the Aiimi Insight Engine library.
+   * This will install the Workplace AI library.
 3. If you have a GPU ad you plan to use that to accelerate steps such as vectorisation:
    1. Uninstall torch with
       1. `pip uninstall torch`

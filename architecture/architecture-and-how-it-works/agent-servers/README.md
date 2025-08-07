@@ -1,6 +1,6 @@
 # Agent Servers
 
-Agent servers run the various Aiimi Insight Engine services. They make up the ‘backend’ of the platform and can be Windows or Linux Services.&#x20;
+Agent servers run the various Workplace AI services. They make up the ‘backend’ of the platform and can be Windows or Linux Services.&#x20;
 
 ### Recommendations
 

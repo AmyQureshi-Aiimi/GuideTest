@@ -10,7 +10,7 @@ When loading certificates from an Azure key vault, they cannot be password prote
 
 ## **Vault Setup**
 
-Aiimi Insight Engine determines how to retrieve passwords and certificates based on the configurations in your appsettings.json files. If a key vault is configured, that is tried first. If that fails or is not configured it will revert to looking locally for passwords and certificates.&#x20;
+Workplace AI determines how to retrieve passwords and certificates based on the configurations in your appsettings.json files. If a key vault is configured, that is tried first. If that fails or is not configured it will revert to looking locally for passwords and certificates.&#x20;
 
 1. **Set up certificates -** Within your Key Vault you need to set up your certificates, secrets and passwords.
    * We recommend adding a year to the certificate names. This can help with certificate management and switching certificates.
@@ -144,7 +144,7 @@ This could log sensitive information and must be set to false once it is working
 
 ## Azure Key Vault
 
-This plugin allows Aiimi Insight Engine to retrieve certificates and passwords from Azure Key Vault. It accesses it via a URI provided in the config, and supports `DefaultAzureCredential`. This allows you to control access via secrets or passwords stored in environment variables, managed identities (if running in an Azure environment), Azure CLI/PowerShell or interactive.
+This plugin allows Workplace AI to retrieve certificates and passwords from Azure Key Vault. It accesses it via a URI provided in the config, and supports `DefaultAzureCredential`. This allows you to control access via secrets or passwords stored in environment variables, managed identities (if running in an Azure environment), Azure CLI/PowerShell or interactive.
 
 This configuration requires the access to be encompassed by DefaultAzure Credentials. However, You should follow your existing procedures when configuring access to the vault.
 

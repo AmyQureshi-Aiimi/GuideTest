@@ -1,6 +1,6 @@
 # BBC Monitoring
 
-Connect BBC Monitoring to Aiimi Insight Engine to get media updates that matter to you as they happen.&#x20;
+Connect BBC Monitoring to Workplace AI to get media updates that matter to you as they happen.&#x20;
 
 1. **Source System:** Select BBC Monitoring from the dropdown.
 

@@ -1,6 +1,6 @@
 # SAR Configuration
 
-To have SARs on your Aiimi Insight Engine system there are a few things that need to be set up.&#x20;
+To have SARs on your Workplace AI system there are a few things that need to be set up.&#x20;
 
 ## Extract Disclosure Portal Zips
 
@@ -14,7 +14,7 @@ To have SARs on your Aiimi Insight Engine system there are a few things that nee
 
 1. Within the Control Hub go to Mappings, Models.
 2. Under the Collection Business Area check if the dsarCollection exists.
-3. Initialise it by running the following commands on the Aiimi Insight Engine server:&#x20;
+3. Initialise it by running the following commands on the Workplace AI server:&#x20;
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```powershell
@@ -55,7 +55,7 @@ This will create the model, publish it, and populate default values for objects 
 
 ### Generate root and child certificates
 
-If deploying on a separate web server to Aiimi Insight Engine, copy the folder ‘C:\InsightMaker\scripts’ to the server.
+If deploying on a separate web server to Workplace AI, copy the folder ‘C:\InsightMaker\scripts’ to the server.
 
 If deploying on the same server as AIE, simply use the existing ‘C:\InsightMaker\scripts’ folder.
 
@@ -76,13 +76,13 @@ C:\InsightMaker\scripts\create-root-child-certs.ps1
 8. Click Browse and select ‘Trusted Root Certification Authorities’.&#x20;
 9. Click OK, then Next and Finish.
 
-#### Deploying on a separate web server to Aiimi Insight Engine
+#### Deploying on a separate web server to Workplace AI
 
 1. Copy the Elastic cert ‘elastic-certificiates.p12’ file to the server under C:\DisclosurePortal\certs\\
    * e.g. C:\Apps\elasticsearch-8.11.1\config\certs\elastic-certificates.p12&#x20;
-2. Copy the cert file ‘child.pfx’ to the Aiimi Insight Engine server (or AIE web app AND agents servers, if multi-server deployment).
+2. Copy the cert file ‘child.pfx’ to the Workplace AI server (or AIE web app AND agents servers, if multi-server deployment).
 
-#### Deploying on the same server as Aiimi Insight Engine
+#### Deploying on the same server as Workplace AI
 
 1. Use the existing ‘elastic-certificates.p12’ path and password.
 
@@ -104,7 +104,7 @@ C:\InsightMaker\scripts\create-root-child-certs.ps1
 ### Appsettings.json
 
 {% hint style="info" %}
-If you are deploying on a separate web server to Aiimi Insight Engine, copy the folder ‘C:\InsightMaker\Plugins’ to the server.
+If you are deploying on a separate web server to Workplace AI, copy the folder ‘C:\InsightMaker\Plugins’ to the server.
 {% endhint %}
 
 1. Rename the **appsettings.default.json** files within \client-api and \admin-api to **appsettings.json**.
@@ -135,13 +135,13 @@ If you are deploying on a separate web server to Aiimi Insight Engine, copy the 
     2. Set the disclosureRoot to ‘C:\\\tmp\\\disclosures’.
     3. Set the plugins.locations to ‘C:\\\InsightMaker\\\Plugins’ (line 6).
     4. Set the remoteApi.certificate.path to ‘C:\\\DisclosurePortal\\\certs\\\elastic-certificates.p12’&#x20;
-       * (or the existing path of ‘elastic-certificates.p12’ if deploying on the same server as Aiimi Insight Engine)
+       * (or the existing path of ‘elastic-certificates.p12’ if deploying on the same server as Workplace AI)
     5. Set the remoteApi.certificate.password value to the password of ‘elastic-certificates.p12’&#x20;
 14. Save and close&#x20;
 
 ## Installing .NET Hosting Bundle
 
-#### Deploying on a separate web server to Aiimi Insight Engine
+#### Deploying on a separate web server to Workplace AI
 
 1. Download .NET Hosting Bundle 8.x from [https://dotnet.microsoft.com/en-us/download/dotnet/8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) (actual version number may vary from screenshot)
 

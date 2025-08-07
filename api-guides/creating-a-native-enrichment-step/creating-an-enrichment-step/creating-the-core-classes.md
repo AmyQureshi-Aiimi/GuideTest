@@ -4,7 +4,7 @@ Several classes need to be generated for configuration, the enrichment step itse
 
 ### Configuration
 
-Create a class called HelloWorldESConfiguration for the configuration. This class will extend the Enrichment Step Configuration class, and also contain a class object that contains enrichment step specific configuration. Here we have a single ‘Text’ property that will contain text to append to the text content on an Aiimi Insight Engine item.
+Create a class called HelloWorldESConfiguration for the configuration. This class will extend the Enrichment Step Configuration class, and also contain a class object that contains enrichment step specific configuration. Here we have a single ‘Text’ property that will contain text to append to the text content on a Workplace AI item.
 
 ```
 using InsightMaker.Core.Types.Config;

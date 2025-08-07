@@ -84,7 +84,7 @@ For more information see the NLTK documentation: [https://www.nltk.org/data.html
 
 ***
 
-## Aiimi Insight Engine Wheel
+## Workplace AI Wheel
 
 AI Classification, Enrichment and Model services require the AiimiInsightEngine Wheel to be installed. This installs the AiimiInsightEngine library.&#x20;
 

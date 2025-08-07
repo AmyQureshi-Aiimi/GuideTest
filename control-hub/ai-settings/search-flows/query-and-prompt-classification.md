@@ -2,7 +2,7 @@
 
 Search Flows allow you to classify queries and prompts from users. You can then use this to select the right search algorithm or AI model to use.
 
-Aiimi Insight Engine provides a few classification models out of the box, such as 'Is A Question'. However, you can add custom models.
+Workplace AI provides a few classification models out of the box, such as 'Is A Question'. However, you can add custom models.
 
 Classification models return a value or a label that contains the 'classification'. For example, 'Is A Question' will return 'true' or 'false' and uses this to select the right algorithm or model.
 

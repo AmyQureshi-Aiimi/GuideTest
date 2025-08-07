@@ -10,7 +10,7 @@ _Before using this step ensure you have created your entities in Control Hub._
 * Web Entities Entity Name - The entity to store [web entities](https://cloud.google.com/vision/docs/detecting-web) in (type keyword).
 * Text Detection Entity Name - The entity to store text that is detected in (type text).
 * Document Text Detection - Check this to enable document text detection (i.e. for OCR).
-* Append Entities to Text Content - Check this to append the entities found to the text content in the Aiimi Insight Engine index.
+* Append Entities to Text Content - Check this to append the entities found to the text content in the Workplace AI index.
 * Language Hints - You can provide language hints in the form of language codes.
 
 <figure><img src="../../../../../../.gitbook/assets/image (687).png" alt="" width="563"><figcaption></figcaption></figure>

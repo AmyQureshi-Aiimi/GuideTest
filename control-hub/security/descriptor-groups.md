@@ -1,6 +1,6 @@
 # Descriptor Groups
 
-Security descriptors can impact the permissions of your items. As files are crawled and added to Aiimi Insight Engine, so are their security descriptors.
+Security descriptors can impact the permissions of your items. As files are crawled and added to Workplace AI, so are their security descriptors.
 
 These descriptors can control who has access to what items. You can create rules that mean a user's descriptors must match an item's to view it. These controls supersede all other permissions like read access and privileged access.
 

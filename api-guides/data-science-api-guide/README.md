@@ -1,6 +1,6 @@
 # Data Science API Guide
 
-The Data Science API (DS API) exists within Aiimi Insight Engine to enable Data Scientists and Data Engineers programmatic access to data and searches to aid in the development of analytical models. However, the API may also be used for general systems integration purposes too.
+The Data Science API (DS API) exists within Workplace AI to enable Data Scientists and Data Engineers programmatic access to data and searches to aid in the development of analytical models. However, the API may also be used for general systems integration purposes too.
 
 ### Key features
 
@@ -14,4 +14,4 @@ The Data Science API (DS API) exists within Aiimi Insight Engine to enable Data 
 
 ### Access
 
-To obtain access to the data science API you will need to obtain a key from your Aiimi Insight Engine administrator. You will need to keep this secure.&#x20;
+To obtain access to the data science API you will need to obtain a key from your Workplace AI administrator. You will need to keep this secure.&#x20;

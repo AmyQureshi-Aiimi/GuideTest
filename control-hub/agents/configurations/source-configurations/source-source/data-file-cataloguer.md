@@ -1,6 +1,6 @@
 # Data File Cataloguer
 
-Connect your Data File Cataloguer to Aiimi Insight Engine to make the most of the data.
+Connect your Data File Cataloguer to Workplace AI to make the most of the data.
 
 1. **Source System:** Select Data File Cataloguer from the dropdown.
 

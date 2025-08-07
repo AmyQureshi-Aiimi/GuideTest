@@ -1,6 +1,6 @@
 # Models
 
-Create relationships and ingest datasets which then adhere to these data models within Aiimi Insight Engine.  Users will then be able to navigate the structure of different datasets and related files. &#x20;
+Create relationships and ingest datasets which then adhere to these data models within Workplace AI.  Users will then be able to navigate the structure of different datasets and related files. &#x20;
 
 Administrators can define the data models using the Models page in Control Hub. Data sources are CSV, XML and JSON data loaders. These are found in the sources section, under configurations. You can also load data into a model through a custom load process.
 

@@ -12,7 +12,7 @@
 
 ## OData Entity Sets
 
-The entity sets for the OData API determine what a query will search. You much configure the name used during the search and the field within Aiimi Insight Engine that relates to.
+The entity sets for the OData API determine what a query will search. You much configure the name used during the search and the field within Workplace AI that relates to.
 
 ### Create an Entity Set
 

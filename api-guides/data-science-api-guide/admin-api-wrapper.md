@@ -24,10 +24,10 @@ Registers a service with the Admin API.&#x20;
   * Exception: If the registration fails, an exception is raised with the status code and response text.&#x20;
 
 `get_aie_settings() -> dict`\
-Retrieves the Aiimi Insight Engine settings.&#x20;
+Retrieves the Workplace AI settings.&#x20;
 
 * **Returns:**&#x20;
-  * A dictionary containing the Aiimi Insight Engine settings.&#x20;
+  * A dictionary containing the Workplace AI settings.&#x20;
 * **Raises:**&#x20;
   * Exception: If the retrieval fails, an exception is raised with the status code and response text.&#x20;
 

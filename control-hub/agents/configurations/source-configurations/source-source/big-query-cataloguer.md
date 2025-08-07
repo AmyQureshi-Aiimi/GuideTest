@@ -1,6 +1,6 @@
 # Big Query Cataloguer
 
-Connect a Big Query Cataloguer to Aiimi Insight Engine to make the most of the data on your machines.
+Connect a Big Query Cataloguer to Workplace AI to make the most of the data on your machines.
 
 1. **Source System:** Select Big Query Cataloguer from the dropdown.
 
@@ -40,10 +40,10 @@ Connect a Big Query Cataloguer to Aiimi Insight Engine to make the most of the d
 
 ### Dataset label mappings
 
-Map your Aiimi Insight Engine metadata fields to the BigQuery labels for datasets.
+Map your Workplace AI metadata fields to the BigQuery labels for datasets.
 
 1. **Add New Item:** Select this to add a new dataset label mapping.
-2. **Database Model Property:** Enter the database model property from Aiimi Insight Engine in the left column.&#x20;
+2. **Database Model Property:** Enter the database model property from Workplace AI in the left column.&#x20;
    * This is case sensitive
 3. **BigQuery Label:** Enter the BigQuery label key name that you want to map in the right column.
    * This is case sensitive
@@ -51,10 +51,10 @@ Map your Aiimi Insight Engine metadata fields to the BigQuery labels for dataset
 
 ### Table and View label mappings
 
-Map your Aiimi Insight Engine metadata fields to the BigQuery labels for tables and views.
+Map your Workplace AI metadata fields to the BigQuery labels for tables and views.
 
 1. **Add New Item:** Select this to add a new table and view label mapping.
-2. **Database Model Property:** Enter the database model property from Aiimi Insight Engine in the left column.&#x20;
+2. **Database Model Property:** Enter the database model property from Workplace AI in the left column.&#x20;
    * This is case sensitive
 3. **BigQuery Label:** Enter the BigQuery label key name that you want to map in the right column.
    * This is case sensitive

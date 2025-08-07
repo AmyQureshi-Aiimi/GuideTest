@@ -12,7 +12,7 @@ The Elastic token needed to configure Kibana is only valid for 30 minutes. Once 
 
 <summary>Prerequisites</summary>
 
-* [ ] Check what version of Elastic and Kibana is needed for the Aiimi Insight Engine vesion you are deploying. You can find this  in the release notes for your distribution.&#x20;
+* [ ] Check what version of Elastic and Kibana is needed for the Workplace AI vesion you are deploying. You can find this  in the release notes for your distribution.&#x20;
 * [ ] Obtain your XPack Elasticsearch licence (or you can enable a trial).
 
 - [ ] Install [Notepad++](https://notepad-plus-plus.org/) or similar text editing software.

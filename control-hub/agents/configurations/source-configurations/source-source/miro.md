@@ -1,6 +1,6 @@
 # Miro
 
-Connect Miro to Aiimi Insight Engine to make the most of your data.
+Connect Miro to Workplace AI to make the most of your data.
 
 ## Initial Configuration Steps
 
@@ -9,7 +9,7 @@ Connect Miro to Aiimi Insight Engine to make the most of your data.
    * We recommend ContentAdminPermissions are enabled so all boards can be crawled.
    * _For support setting up credentials use_ [_our guide on managing credentials._](../../../../security/credentials.md)
 2. **Miro Security Sync:** Select the ID of a configured Miro Security sync.
-   * This allows Aiimi Insight Engine to manage and match Miro user groups to its users after crawling.
+   * This allows Workplace AI to manage and match Miro user groups to its users after crawling.
 3. **Text of Unusual Size:** Enter the smallest font size that should be considered a header.
 4. **Minimum Tag Frequency:** Set the minimum number of times a word must be used on a board to become a tag.
    1. Common words like A, The, And, etc. are ignored.

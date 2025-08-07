@@ -6,7 +6,7 @@ The related results connection diagram shows insights for a large collection of 
 
 ### General
 
-1. Within Aiimi Insight Engine Control Hub&#x20;
+1. Within Workplace AI Control Hub&#x20;
 2. Go to Global Settings and Visualisations.&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (381).png" alt="" width="563"><figcaption></figcaption></figure>

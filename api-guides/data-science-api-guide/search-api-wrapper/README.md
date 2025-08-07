@@ -1,6 +1,6 @@
 # Search API Wrapper
 
-The Aiimi Insight Engine Search API wrapper is the best way to test Aiimi Insight Engine. It provides the same results in python as you would see in the UI.&#x20;
+The Workplace AI Search API wrapper is the best way to test Workplace AI. It provides the same results in python as you would see in the UI.&#x20;
 
 With the Search API wrapper, python developers can manage collections, perform searches, download files and use search flows.&#x20;
 

@@ -14,7 +14,7 @@ For each area of the application you can control who has access to what by enter
 
 <figure><img src="../../.gitbook/assets/image (890).png" alt="" width="563"><figcaption></figcaption></figure>
 
-* **Area Access Fields** - Each area of Aiimi Insight Engine has an access field. Enter the users or groups within the specific field to give them access.&#x20;
+* **Area Access Fields** - Each area of Workplace AI has an access field. Enter the users or groups within the specific field to give them access.&#x20;
   * Only users or groups in each area can access it.&#x20;
 * **Toggle Modals Per AD User/Group** - Add users and groups to this field to stop them from seeing Guided Tours, Code of Conduct and New Source Modals.
 

@@ -1,6 +1,6 @@
 # Document Store
 
-Connect your DocumentStore source to Aiimi Insight Engine to make the most of the data. You can either set up your DocumentStore using the storage root folder location or a storage plugin like Azure Storage.
+Connect your DocumentStore source to Workplace AI to make the most of the data. You can either set up your DocumentStore using the storage root folder location or a storage plugin like Azure Storage.
 
 1. **Source System:** Select Document Store from the dropdown.
 
@@ -28,7 +28,7 @@ Connect your DocumentStore source to Aiimi Insight Engine to make the most of th
 4. **Select Credential:** Choose a credential for this from the dropdown.
    * _For support setting up credentials use_ [_our guide on managing credentials._](../../../../security/credentials.md)
 5. **Azure Container ID:** Enter the root Azure Container ID for this storage.&#x20;
-6. **Add content-types to blobs:** If checked you will see the content types when accessing the blobs outside of Aiimi Insight Engine.
+6. **Add content-types to blobs:** If checked you will see the content types when accessing the blobs outside of Workplace AI.
 7. **Enable for Configurable Collection:** Check this to show this source in the configurable collections wizard.
    * If this source if selected in the configurable collection wizard imported documents will be stored here.
 8. Continue to the Crawl Tab.

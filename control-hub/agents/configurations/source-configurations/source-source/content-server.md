@@ -1,6 +1,6 @@
 # Content Server
 
-Connect a Content Server source to Aiimi Insight Engine to make the most of your data. Once you have selected a Source System type more detail will expand to customise this.
+Connect a Content Server source to Workplace AI to make the most of your data. Once you have selected a Source System type more detail will expand to customise this.
 
 {% hint style="info" %}
 For Livelink connections, contact your Aiimi representative.

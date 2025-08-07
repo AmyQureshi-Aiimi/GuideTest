@@ -6,7 +6,7 @@ As standard the control hub communicates with all the repositories and agents. T
 
 ### Gateway hosts
 
-APIs and apps are hosted on Internet Information Services (IIS) on a Windows operating system or Apache on Linux. The APIs are used by any app that interacts with Aiimi Insight Engine.
+APIs and apps are hosted on Internet Information Services (IIS) on a Windows operating system or Apache on Linux. The APIs are used by any app that interacts with Workplace AI.
 
 * Insight API
 * Insight App

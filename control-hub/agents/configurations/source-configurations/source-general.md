@@ -31,7 +31,7 @@
 
 ## Multilingual search set up
 
-Users can perform multilingual searches within Aiimi Insight Engine. The text analyser will parse the content of that source using the rules for each language.
+Users can perform multilingual searches within Workplace AI. The text analyser will parse the content of that source using the rules for each language.
 
 1. **Text Analyzer (Language):** Choose the language of the source from the dropdown.&#x20;
    * This does not translate the search or results but will allow native language to be used for the source.

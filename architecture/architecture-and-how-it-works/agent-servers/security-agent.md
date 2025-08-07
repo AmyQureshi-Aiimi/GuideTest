@@ -9,7 +9,7 @@ The security agent has two main services:
 
 Synchronisation is provided by a series of plug-ins, several are provided out of the box.&#x20;
 
-At the time of writing these are: Active Directory, Azure Active Directory, OpenText Content Server and Aiimi Insight Engine Built-In Accounts.&#x20;
+At the time of writing these are: Active Directory, Azure Active Directory, OpenText Content Server and Workplace AI Built-In Accounts.&#x20;
 
 > Aiimi, our customers and partners can create security plugins using the Microsoft.NET framework. The only limitation is the given user must be the same across all security repositories.
 

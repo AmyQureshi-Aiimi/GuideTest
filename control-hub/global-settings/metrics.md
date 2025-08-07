@@ -1,6 +1,6 @@
 # Metrics
 
-By configuring a commandJob, Aiimi Insight Engine will pre define 6 KPI metrics. These can be viewed by end users in a Metrics dashboard. In order to provide extra context, administrators can add targets for each KPI that will appear on the dashboard.&#x20;
+By configuring a commandJob, Workplace AI will pre define 6 KPI metrics. These can be viewed by end users in a Metrics dashboard. In order to provide extra context, administrators can add targets for each KPI that will appear on the dashboard.&#x20;
 
 ## Access
 

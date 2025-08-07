@@ -1,6 +1,6 @@
 # SharePoint Security
 
-Synchronise users and groups from your SharePoint system into Aiimi Insight Engine.
+Synchronise users and groups from your SharePoint system into Workplace AI.
 
 1. **Security System:** Select SharePoint Security from the dropdown.
 
@@ -68,9 +68,9 @@ Synchronise users and groups from your SharePoint system into Aiimi Insight Engi
 
 #### User Mapping
 
-2. **Match Users On** - Select how the SharePoint and Aiimi Insight Engine usernames are linked.
+2. **Match Users On** - Select how the SharePoint and Workplace AI usernames are linked.
    * Exact match - Both usernames match exactly.
-   * Alternative Domain - The domain in SharePoint is different to Aiimi Insight Engine.
+   * Alternative Domain - The domain in SharePoint is different to Workplace AI.
 3. **Alternative Domain** - Enter the domain in SharePoint used to identify users.
 
 <figure><img src="../../../../../.gitbook/assets/image (37).png" alt="" width="563"><figcaption></figcaption></figure>

@@ -1,6 +1,6 @@
 # Slack
 
-Connect Slack to Aiimi Insight Engine to make the most of the knowledge shared in conversations.
+Connect Slack to Workplace AI to make the most of the knowledge shared in conversations.
 
 <details>
 
@@ -28,7 +28,7 @@ You can initialise this model with IndexUtils:\
 1. **Select Credential:** Select the secret only credential from the dropdown that matches this key.
    * _For support setting up credentials use_ [_our guide on managing credentials._](../../../../security/credentials.md)
 2. **Slack Security Sync:** Select the ID configured for your Slack security sync.
-   * The security sync allows Aiimi Insight Engine to manage user groups from Slack and link them to Aiimi Insight Engine users. This ensures the user permissions more closely match Slack.
+   * The security sync allows Workplace AI to manage user groups from Slack and link them to Workplace AI users. This ensures the user permissions more closely match Slack.
 
 <figure><img src="../../../../../.gitbook/assets/image (802).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -51,7 +51,7 @@ You can initialise this model with IndexUtils:\
 7. **Minimum Messages Length:** Enter the minimum number of characters in a message before it is indexed. &#x20;
    * Messages with less characters will not be indexed.
 8. **Always Perform Full Crawl:** Check this to always crawl messages from all time.
-   * This will increase the length of a crawl but ensure edited messages are updated in Aiimi Insight Engine.
+   * This will increase the length of a crawl but ensure edited messages are updated in Workplace AI.
    * If not checked, the crawl will only check for new messages since the last crawl.
 
 <figure><img src="../../../../../.gitbook/assets/image (807).png" alt="" width="563"><figcaption></figcaption></figure>

@@ -1,6 +1,6 @@
 # Alfresco Kafka
 
-Connect Alfresco and Kafka to Aiimi Insight Engine to make the most of your  data.
+Connect Alfresco and Kafka to Workplace AI to make the most of your  data.
 
 ## Kafka
 
@@ -43,8 +43,8 @@ Changing this once the connector is running will have unintended side effects.
    * This can be adjusted to tune performance depending on the environment.
 6. **Result Path Prefix:** Enter the string value that should be removed the Path displayed in the Result detail page.&#x20;
    1. This defaults to "/Company Home/Sites".
-7. **Security Markings Enabled:** Check this to match any Alfresco security markings to configured security descriptors in Aiimi Insight Engine.&#x20;
-   * This will apply permissions to items within Aiimi Insight Engine.&#x20;
+7. **Security Markings Enabled:** Check this to match any Alfresco security markings to configured security descriptors in Workplace AI.&#x20;
+   * This will apply permissions to items within Workplace AI.&#x20;
 8. **Lowercase Permissions:** Check this to allow the permissions to be stored in Elastic with optional lowercasing.
 9. **Use Alfresco Groups:** Check this if Alfresco does not use AD groups to control permissions. It ensures queries are made to get the specific Users attached to an Alfresco Group.
 

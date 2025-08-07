@@ -6,7 +6,7 @@
 
 * Access to all agent servers.
 * Access to any respective agent services.
-* Access to the Elasticsearch cluster – [Read more about Aiimi Insight Engine Firewalling.](firewalling.md)
+* Access to the Elasticsearch cluster – [Read more about Workplace AI Firewalling.](firewalling.md)
 
 ### Internet Information Services Config or Apache Server Account Needs
 

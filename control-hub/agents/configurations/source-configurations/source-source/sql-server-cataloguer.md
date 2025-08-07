@@ -1,6 +1,6 @@
 # SQL Server Cataloguer
 
-Connect your SQL Server to Aiimi Insight Engine to make the most of the data in your business. Once you have selected a Source System type more detail will expand to customise this.
+Connect your SQL Server to Workplace AI to make the most of the data in your business. Once you have selected a Source System type more detail will expand to customise this.
 
 1. Enter the address of the SQL server you want to access in Server Address.
 2. Enter the name of any databases to crawl within Databases.

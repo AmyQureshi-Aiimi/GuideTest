@@ -1,6 +1,6 @@
 # Azure Blob Storage
 
-Connect your Azure Blob Storage to Aiimi Insight Engine to make the most of the data on your machines.
+Connect your Azure Blob Storage to Workplace AI to make the most of the data on your machines.
 
 
 
@@ -11,7 +11,7 @@ Connect your Azure Blob Storage to Aiimi Insight Engine to make the most of the 
 1. **Endpoint Suffix:** Change the Endpoint Suffix to match your Azure Blob Storage system if necessary.
    * In most cases, you won't need to change this.
 2. **Account Name:** Enter the name of the account to be crawled.
-3. **Subscription ID:** Enter the storage accounts Subscription ID to open file locations from Aiimi Insight Engine in Azure Storage Explorer.
+3. **Subscription ID:** Enter the storage accounts Subscription ID to open file locations from Workplace AI in Azure Storage Explorer.
    * This allows URLs to be created and used for access.&#x20;
 4. **Resource Group:** You must also enter the associated Resource Group to open file locations.
 
@@ -33,10 +33,10 @@ Connect your Azure Blob Storage to Aiimi Insight Engine to make the most of the 
 
 ## Metadata Mappings
 
-Map your Aiimi Insight Engine metadata fields to meta tags in Azure Blob Storage.
+Map your Workplace AI metadata fields to meta tags in Azure Blob Storage.
 
 1. **Add New Item:** Select this to add a new metadata mapping.
-2. **Metadata Field:** Enter the full metadata field from Aiimi Insight Engine in the left column.&#x20;
+2. **Metadata Field:** Enter the full metadata field from Workplace AI in the left column.&#x20;
    * This is case sensitive
 3. **Azure Blob Meta Tag:** Enter the Azure Blob meta tag name that you want to map in the right column.
    * For Example, subject

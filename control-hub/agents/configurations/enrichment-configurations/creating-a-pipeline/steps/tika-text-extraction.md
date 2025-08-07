@@ -1,6 +1,6 @@
 # Tika Text Extraction
 
-Tika Text Extraction converts native documents to plain text, this is what is indexed in Aiimi Insight Engine.
+Tika Text Extraction converts native documents to plain text, this is what is indexed in Workplace AI.
 
 * Endpoint - The endpoint for the Tika service.
   * There is usually an instance running on each enrichment server.

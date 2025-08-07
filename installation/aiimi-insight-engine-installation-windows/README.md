@@ -1,6 +1,6 @@
-# Aiimi Insight Engine Installation (Windows)
+# Workplace AI Installation (Windows)
 
-This is a guide for setting up a simple single node Aiimi Insight Engine instance on Windows 2016 or later.&#x20;
+This is a guide for setting up a simple single node Workplace AI instance on Windows 2016 or later.&#x20;
 
 {% hint style="info" %}
 If you are designing and installing a production environment you will be installing individual agents and components on specific nodes. Further guidance on this can be provided on request.&#x20;
@@ -10,7 +10,7 @@ If you are designing and installing a production environment you will be install
 
 <summary>Prerequisites</summary>
 
-* Obtain your Aiimi Insight Engine licence from Aiimi.
+* Obtain your Workplace AI licence from Aiimi.
 
 - Download and Install .NET SDK [(v8.0)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 
@@ -22,8 +22,8 @@ If you installed Elasticsearch and Kibana previously you may already have the fo
 
 * Install [Notepad++](https://notepad-plus-plus.org/) or similar text editing software.
 * Download and install [NSSM ](https://nssm.cc/download)to run the Tika Agent as a service
-* Download your Aiimi Insight Engine distribution. _Your Aiimi contact can help you with this if you don't have it._
-* Download the Tika file in the Aiimi Insight Engine distribution.
+* Download your Workplace AI distribution. _Your Aiimi contact can help you with this if you don't have it._
+* Download the Tika file in the Workplace AI distribution.
 
 </details>
 
@@ -33,7 +33,7 @@ If you installed Elasticsearch and Kibana previously you may already have the fo
 The following guide assumes everything is being stored in the C: drive. You can use any drive but we recommend installing to the root of it.
 {% endhint %}
 
-1. Check your Aiimi Insight Engine distribution is extracted into C:\InsightMaker
+1. Check your Workplace AI distribution is extracted into C:\InsightMaker
    * If not, download the insightmaker-windows.zip from GitHub.
 
 <figure><img src="../../.gitbook/assets/image (142).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -507,7 +507,7 @@ iisreset;
    * The correct password is set.
    * The Elasticsearch credentials are set to the elastic login you created.
    * The prefix is set to the correct value and consistent across all components.
-4. Add your two Aiimi Insight Engine licences to the root of the json:
+4. Add your two Workplace AI licences to the root of the json:
    * "licenseKey": "your key"
    * "licenseSig": "your sig"
 5. Check the remoteAddress is set to ‘[http://localhost/analytics/‘](http://localhost/analytics/).

@@ -1,6 +1,6 @@
 # Proxy Node
 
-A proxy node gets all the API requests to access data from Aiimi Insight Engine agents and the gateway API. It then coordinates the execution of the request across the data nodes.
+A proxy node gets all the API requests to access data from Workplace AI agents and the gateway API. It then coordinates the execution of the request across the data nodes.
 
 ### Requirements
 

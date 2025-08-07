@@ -4,7 +4,7 @@ Users can narrow down their results to more easily find relevant documents. User
 
 ## Search
 
-Select the Filters and in what order they appear in the left hand filter panel within Aiimi Insight Engine.
+Select the Filters and in what order they appear in the left hand filter panel within Workplace AI.
 
 1. Add a new filter field by selecting Add New Filter Definition.
 2. Select from the Available Fields dropdown the field you want to add.
@@ -28,7 +28,7 @@ Check this to show totals shown next to the (any) filter value. For massive syst
 
 ## Manage Filters
 
-Select the Filters and in what order they appear in the left hand filter panel within Aiimi Insight Engine.
+Select the Filters and in what order they appear in the left hand filter panel within Workplace AI.
 
 1. Add a new filter field by selecting Add New Filter Definition.
 2. Select from the Available Fields dropdown the field you want to add.

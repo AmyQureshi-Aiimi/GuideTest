@@ -1,6 +1,6 @@
 # Theming
 
-Customise and brand Aiimi Insight Engine with logos, background images and colour palettes within the Control Hub. Putting the control in your hands to configure and evolve Aiimi Insight Engine with your brand.
+Customise and brand Workplace AI with logos, background images and colour palettes within the Control Hub. Putting the control in your hands to configure and evolve Workplace AI with your brand.
 
 {% hint style="info" %}
 To help with accessibility we prompt where text contrasts against the colour palette would not meet WCAG 2.1 AA standards.
@@ -8,14 +8,14 @@ To help with accessibility we prompt where text contrasts against the colour pal
 
 ## General
 
-There are a number of settings to customise Aiimi Insight Engine. You can change names, contact details, and branding.
+There are a number of settings to customise Workplace AI. You can change names, contact details, and branding.
 
-1. **Display Name** - Enter the Display Name you want to use for Aiimi Insight Engine.
+1. **Display Name** - Enter the Display Name you want to use for Workplace AI.
    * You could change the name to match any internal naming conventions.
 2. **Support Email** - Enter the Support Email to be used for support and queries.
    * There are a couple of ways users can contact admins, you can choose where they're sent.
 3. **Show Support Email As A Modal** - Check this so users can see and copy the support email.
-4. **Include "Powered By Aiimi Insight Engine"** - Check this to show this message within the system.&#x20;
+4. **Include "Powered By Workplace AI"** - Check this to show this message within the system.&#x20;
 5. **Help Centre URL** - Enter the URL users are navigated to when they select "Visit the Help Centre".
 
 <figure><img src="../../.gitbook/assets/image (755).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -27,9 +27,9 @@ There are a number of settings to customise Aiimi Insight Engine. You can change
 
 ### External Search Links
 
-External search tool links can be added so users can quickly search that tool from Aiimi Insight Engine.
+External search tool links can be added so users can quickly search that tool from Workplace AI.
 
-1. Select Add Link to add new search tools to Aiimi Insight Engine.
+1. Select Add Link to add new search tools to Workplace AI.
 2. **Link Name** - Enter the External Search Link Name to add a new search tool in Link Name.
 3. **URL** - Enter the URL for the External Search Tool.&#x20;
    * This must be a valid link with a suffix of "q=".
@@ -81,7 +81,7 @@ Or
 
 ### Landing Page Background
 
-Choose the type of background and the logo to use on the Aiimi Insight Engine landing page.
+Choose the type of background and the logo to use on the Workplace AI landing page.
 
 **Background image -** Select this to use an image for your landing page background. It will use the Additional background Image used for the login page.
 
@@ -99,7 +99,7 @@ Choose the type of background and the logo to use on the Aiimi Insight Engine la
 
 ## Site Message
 
-This adds a message to the top of every users Aiimi Insight Engine. You can share important information, updates or upcoming down time.
+This adds a message to the top of every users Workplace AI. You can share important information, updates or upcoming down time.
 
 1. Turn on a site wide messages with the Toggle at the top of the page.
 2. **Site Message** - Enter the text you want to be displayed across the application.

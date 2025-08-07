@@ -1,16 +1,16 @@
 # Deployment Options
 
-The section looks at the various deployment options that you have for Aiimi Insight Engine. These are guides and are not representative of what your deployment will look like.&#x20;
+The section looks at the various deployment options that you have for Workplace AI. These are guides and are not representative of what your deployment will look like.&#x20;
 
 <details>
 
 <summary>Development Environments</summary>
 
-For a development environment we recommend a single server set up. This should contain all the Aiimi Insight Engine components.&#x20;
+For a development environment we recommend a single server set up. This should contain all the Workplace AI components.&#x20;
 
 #### Single Server Requirement&#x20;
 
-A laptop with the following requirements is ample for a single server installation of Aiimi Insight Engine.
+A laptop with the following requirements is ample for a single server installation of Workplace AI.
 
 * 4 CPU Cores
 * 16GB RAM

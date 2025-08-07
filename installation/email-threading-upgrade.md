@@ -5,24 +5,24 @@ You can allow emails to be grouped and collapsed and remove duplicates using ema
 These steps need to be applied to all sources regardless of whether they are structured or unstructured data sources.&#x20;
 
 {% hint style="danger" %}
-If installing Aiimi Insight Engine Habanero or later, for the first time ignore these steps.&#x20;
+If installing Workplace AI Habanero or later, for the first time ignore these steps.&#x20;
 {% endhint %}
 
 The Habanero release introduced two new elastic fields that are required for email threading.
 
 #### CollapseID
 
-The default CollapseID is `{prefix}_{source}_{id}_{version}`. This is automatically populated by Aiimi Insight Engine at crawl time. The fields combined ensure every item has a unique collapseID even if it appears in multiple sources.
+The default CollapseID is `{prefix}_{source}_{id}_{version}`. This is automatically populated by Workplace AI at crawl time. The fields combined ensure every item has a unique collapseID even if it appears in multiple sources.
 
 #### DeduplicationID
 
-deduplicationID is only applied for Exchange and Mimecast sources. For Mimecast, Exchange and the File Extractor, deduplicationID is populated with the internet message ID of the email at crawl time. It reduces the number of times the same email, in different mailboxes, is displayed in Aiimi Insight Engine.
+deduplicationID is only applied for Exchange and Mimecast sources. For Mimecast, Exchange and the File Extractor, deduplicationID is populated with the internet message ID of the email at crawl time. It reduces the number of times the same email, in different mailboxes, is displayed in Workplace AI.
 
 For emails in all other sources, the value will default to the unique\_value and will need to be populated by Tika.
 
 ***
 
-## Upgrading Aiimi Insight Engine
+## Upgrading Workplace AI
 
 After upgrading to Habanero  or later there are a few upgrade steps required to apply the default collapseID to existing sources.
 
@@ -142,7 +142,7 @@ This can be left as default.
 
 ## Testing
 
-1. Login to the Aiimi Insight Engine search application.
+1. Login to the Workplace AI search application.
 2.  In the search enter one of the following:
 
     `_exists_:metadata.isParent`&#x20;

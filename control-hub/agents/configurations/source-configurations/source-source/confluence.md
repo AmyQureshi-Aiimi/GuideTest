@@ -1,6 +1,6 @@
 # Confluence
 
-Connect a Confluence source to Aiimi Insight Engine to make the most of your data.&#x20;
+Connect a Confluence source to Workplace AI to make the most of your data.&#x20;
 
 1. **Source System:** Select Confluence from the dropdown.
 

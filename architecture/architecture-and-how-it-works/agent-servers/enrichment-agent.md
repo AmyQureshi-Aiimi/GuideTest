@@ -1,6 +1,6 @@
 # Enrichment Agent
 
-The enrichment agent sits at the heart of Aiimi Insight Engine, it enriches data and documents with additional context. This information is stored against the item as a series of labels and data structures. These help structure information, drive recommendations, push insights, and support data science activities.
+The enrichment agent sits at the heart of Workplace AI, it enriches data and documents with additional context. This information is stored against the item as a series of labels and data structures. These help structure information, drive recommendations, push insights, and support data science activities.
 
 ### Enrichment Steps
 
@@ -16,7 +16,7 @@ You can choose the steps to implement and configure them within the the Control 
 ### REST Enrichment Approach
 
 Aiimi uses the REST approach for a series of Python based machine learning steps. For example, Document classification, phrase and topic extraction, statistical named entity recognition, document summarisation and sentiment analysis.  \
-These are in the Python REST Service shipped with Aiimi Insight Engine.
+These are in the Python REST Service shipped with Workplace AI.
 
 Enrichment can be demanding on CPU and Memory depending on the steps in your pipeline. Enterprise production platforms commonly have more than one server for crawling and enrichment. The exact number will depend on your volumetric.&#x20;
 

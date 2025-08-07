@@ -1,6 +1,6 @@
 # Hosting Options
 
-Aiimi Insight Engine can be hosted in several ways depending on your preferences and IT set up.&#x20;
+Workplace AI can be hosted in several ways depending on your preferences and IT set up.&#x20;
 
 ## On-Premises <a href="#toc126235859" id="toc126235859"></a>
 
@@ -28,7 +28,7 @@ The best solution if you have information on the cloud and on-premises servers.&
 
 Putting source, content, and enrichment agents on-premises can improve the discovery and enrichment time. It is helpful for large on-premise sources such as SharePoint or network file systems. Some have on-premises agents for certain source systems and cloud agents for their cloud sources.&#x20;
 
-Running the repository, API and User Interface in the cloud, can make scaling easy. It can also make end-user access easy since users do not need to be on the corporate network/VPN. _This depends on the security needed for Aiimi Insight Engine and how users access the platform._
+Running the repository, API and User Interface in the cloud, can make scaling easy. It can also make end-user access easy since users do not need to be on the corporate network/VPN. _This depends on the security needed for Workplace AI and how users access the platform._
 
 #### A common hybrid configuration
 

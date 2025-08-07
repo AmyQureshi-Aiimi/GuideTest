@@ -1,4 +1,4 @@
-# Introducing Aiimi Insight Engine
+# Introducing Workplace AI
 
 ## Make Understanding Your Data Universe Simple
 
@@ -24,7 +24,7 @@ Use Extractive and Generative AI (Large Language Models) models on your data and
 
 ## Go Everywhere And Understand Everything
 
-Powered by AI and machine learning, the Aiimi Insight Engine discovers, classifies, and enriches all types of information and data across your organisation – from structured data to unstructured content; from CRM systems and sales platforms to email servers and asset-related datasets.
+Powered by AI and machine learning, the Workplace AI discovers, classifies, and enriches all types of information and data across your organisation – from structured data to unstructured content; from CRM systems and sales platforms to email servers and asset-related datasets.
 
 * Total visibility and control.
 * New and valuable insights.
@@ -66,15 +66,15 @@ Empowers data owners to take full control over information management, with no m
 
 ***
 
-## Inside Aiimi Insight Engine
+## Inside Workplace AI
 
-Aiimi Insight Engine has four ‘layers’ which work together to create a comprehensive picture of your data universe that’s searchable, secure, and full of valuable new insights.
+Workplace AI has four ‘layers’ which work together to create a comprehensive picture of your data universe that’s searchable, secure, and full of valuable new insights.
 
 <figure><img src=".gitbook/assets/image (710).png" alt=""><figcaption></figcaption></figure>
 
 #### **Discovery**
 
-The Aiimi Insight Engine automatically crawls all repositories, cloud or on-premises, to capture an up-to-date centralised index of everything that exists in your organisation, including its filename, metadata, where it’s stored, and who can access it.
+The Workplace AI automatically crawls all repositories, cloud or on-premises, to capture an up-to-date centralised index of everything that exists in your organisation, including its filename, metadata, where it’s stored, and who can access it.
 
 #### **Enrichment**
 

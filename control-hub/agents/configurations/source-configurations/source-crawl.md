@@ -1,6 +1,6 @@
 # Source - Crawl
 
-Enter the details to locate folders and files that need syncing. You can choose the type, location or size of a file to pull into Aiimi insight Engine.
+Enter the details to locate folders and files that need syncing. You can choose the type, location or size of a file to pull into Workplace AI.
 
 1. To add extensions to an Include or Exclude list type them into the File Extensions box.
    * To add types of files you can use the drop down to remove a predetermined group of extensions.

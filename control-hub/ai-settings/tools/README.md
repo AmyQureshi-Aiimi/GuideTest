@@ -24,7 +24,7 @@ The tool calling process follows a structured workflow:
    * The tools are called using the relevant parameters and results are returned to the model.
 
 {% hint style="info" %}
-The LLMs do not call the functions. Aiimi Insight Engine performs the function call and provides the results to the LLM.
+The LLMs do not call the functions. Workplace AI performs the function call and provides the results to the LLM.
 {% endhint %}
 
 #### Response Integration
@@ -41,4 +41,4 @@ Administrators are able to define tools through structured schemas. You can spec
 
 ### Getting Started
 
-Aiimi Insight Engine ships with a series of out of the box tool definitions. You can also create your own tools.
+Workplace AI ships with a series of out of the box tool definitions. You can also create your own tools.

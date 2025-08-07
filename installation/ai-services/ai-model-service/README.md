@@ -1,6 +1,6 @@
 # AI Model Service
 
-This details the AI Model Service and the providers that are included with Aiimi Insight Engine. These providers support users performing semantic search, and engaging with large language models (Generative AI).
+This details the AI Model Service and the providers that are included with Workplace AI. These providers support users performing semantic search, and engaging with large language models (Generative AI).
 
 The following providers are included:
 

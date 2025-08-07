@@ -1,6 +1,6 @@
 # Versioned Document Store
 
-Connect your Version Document Store source to Aiimi Insight Engine to make the most of the data. You can set up your Versioned Document Store using the storage plugin like Azure Storage.
+Connect your Version Document Store source to Workplace AI to make the most of the data. You can set up your Versioned Document Store using the storage plugin like Azure Storage.
 
 1. **Source System:** Select Versioned Document Store from the dropdown.
 2. **Choose a Storage Plugin:** Select the Storage Plugin you want to use from the dropdown.
@@ -16,7 +16,7 @@ Connect your Version Document Store source to Aiimi Insight Engine to make the m
 4. **Select Credential:** Choose a credential for this from the dropdown.
    * _For support setting up credentials use_ [_our guide on managing credentials._](../../../../security/credentials.md)
 5. **Azure Container ID:** Enter the root Azure Container ID for this storage.&#x20;
-6. **Add content-types to blobs:** If checked you will see the content types when accessing the blobs outside of Aiimi Insight Engine.
+6. **Add content-types to blobs:** If checked you will see the content types when accessing the blobs outside of Workplace AI.
 7. Continue to the Crawl Tab.
 
 <figure><img src="../../../../../.gitbook/assets/image (551).png" alt=""><figcaption></figcaption></figure>

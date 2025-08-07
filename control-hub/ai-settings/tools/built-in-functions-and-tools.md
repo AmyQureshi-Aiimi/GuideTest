@@ -1,12 +1,12 @@
 # Built In Functions and Tools
 
-There are a few built in tools that ship with Aiimi Insight Engine. There are two types, server side tools and pure client side tools. Server side tools involve a call back to Aiimi Insight Engine to fetch data and render results. Pure client side tools render a response using a client side component. They do not send any data back to the LLM model.
+There are a few built in tools that ship with Workplace AI. There are two types, server side tools and pure client side tools. Server side tools involve a call back to Workplace AI to fetch data and render results. Pure client side tools render a response using a client side component. They do not send any data back to the LLM model.
 
 ## Available Server Side Tools
 
 ### Search
 
-This performs a search for data within Aiimi Insight Engine and posts the data back to the LLM.
+This performs a search for data within Workplace AI and posts the data back to the LLM.
 
 #### Required Parameters
 
@@ -65,7 +65,7 @@ This performs a search for data within Aiimi Insight Engine and posts the data b
 
 ### GetSimpleAggregation
 
-This performs an aggregation (sum, average, min, max) on data that is stored in the Aiimi Insight Engine repository.
+This performs an aggregation (sum, average, min, max) on data that is stored in the Workplace AI repository.
 
 It uses a dynamic chart component and not natural language to respond to the user.
 
@@ -224,7 +224,7 @@ The chartType parameter will be ignored by the tool.
 
 **sourceIds** (array)
 
-* Specifies which data sources to search within Aiimi Insight Engine.
+* Specifies which data sources to search within Workplace AI.
 * Select one or more source relevant to your search query.
 
 {% code overflow="wrap" lineNumbers="true" %}
@@ -393,7 +393,7 @@ This is a proxy tool that will attempt to execute the tool via the AIModelServic
 
 ## Pure Client Side Tool
 
-These tools do not make a call back to Aiimi Insight Engine and use client side components to render the result to a user.
+These tools do not make a call back to Workplace AI and use client side components to render the result to a user.
 
 ### ClearResults
 

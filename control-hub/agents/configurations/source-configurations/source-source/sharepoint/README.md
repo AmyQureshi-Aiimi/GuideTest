@@ -1,6 +1,6 @@
 # SharePoint
 
-Connect your SharePoint source to Aiimi Insight Engine to make the most of your data. Once you have selected a Source System type more detail will expand to customise this.
+Connect your SharePoint source to Workplace AI to make the most of your data. Once you have selected a Source System type more detail will expand to customise this.
 
 ## Recommended SharePoint API Application Permissions
 
@@ -66,7 +66,7 @@ For support setting this up use [our guide on Azure Portal and Azure AD Authenti
 1. **Site Discovery Type -** Choose the type of sites should be discovered during crawl.
    * Choose SharePoint, OneDrive, or Both.
 2. **Admin Centre URL** - Enter the root URL of the site collection that should be crawled.
-   * To use the admin centre URL Aiimi Insight Engine requires the highest level of access.
+   * To use the admin centre URL Workplace AI requires the highest level of access.
    * Format - https://\[site]-admin.sharepoint.com
 3. **Sites** - Choose the sites within the root collection to crawl.&#x20;
    * Enter in specific Sites or leave blank to crawl all sites.
@@ -84,7 +84,7 @@ For support setting this up use [our guide on Azure Portal and Azure AD Authenti
 
 **Synchronisation**
 
-1. **Security Configuration** - Enter the ID of the security configuration the connector will use to synchronise objects with Aiimi Insight Engine Users. This field is required for permission trimming.
+1. **Security Configuration** - Enter the ID of the security configuration the connector will use to synchronise objects with Workplace AI Users. This field is required for permission trimming.
    * The ID must match a SharePoint Security Configuration. [See our SharePoint security configuration guide for help setting this up.](../../../security-configurations/security-source/sharepoint-security.md)
 
 {% hint style="warning" %}
@@ -93,7 +93,7 @@ This field is required if you are using Graph API for permissions.
 
 **Groups**
 
-2. **Additional Included Groups** - Add any additional user groups that should have access to this source within Aiimi Insight Engine.&#x20;
+2. **Additional Included Groups** - Add any additional user groups that should have access to this source within Workplace AI.&#x20;
    * Permissions need to be granted in SharePoint for these users to access any items.
 3. **Excluded Groups** - Add any user groups that should not have access to this source.
 

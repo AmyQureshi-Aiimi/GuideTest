@@ -1,6 +1,6 @@
 # Security
 
-Aiimi Insight Engine supports a host of security options that allow you to secure your deployment. It can be secured at the application and the infrastructure level.
+Workplace AI supports a host of security options that allow you to secure your deployment. It can be secured at the application and the infrastructure level.
 
 ## Concepts:
 
@@ -10,7 +10,7 @@ An Elasticsearch module that secures Elasticsearch transport and HTTP protocol u
 
 ### Source System Credentials
 
-The credentials used to discover and ingest content from the source systems. They act as a layer of security that controls what Aiimi Insight Engine can do. For example, a read-only account means Aiimi Insight Engine cannot make any changes to an item or write back.
+The credentials used to discover and ingest content from the source systems. They act as a layer of security that controls what Workplace AI can do. For example, a read-only account means Workplace AI cannot make any changes to an item or write back.
 
 ### HTTPS
 
@@ -26,4 +26,4 @@ All user requests go through a series of authorisation steps. These govern what 
 
 ### Permissions Trimming
 
-This controls what users can and cannot see when using Aiimi Insight Engine to search or anything else. These controls are mainly taken from the source system but further restrictions can be applied within Aiimi Insight Engine.
+This controls what users can and cannot see when using Workplace AI to search or anything else. These controls are mainly taken from the source system but further restrictions can be applied within Workplace AI.

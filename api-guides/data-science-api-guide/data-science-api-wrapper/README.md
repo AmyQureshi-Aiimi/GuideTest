@@ -1,9 +1,9 @@
 # Data Science API Wrapper
 
-The data science API wrapper is designed to be used by data scientists when developing scripts which utilise Aiimi Insight Engine data. It is authenticated via API key (as defined in Control Hub) and was the original use case for the python library.&#x20;
+The data science API wrapper is designed to be used by data scientists when developing scripts which utilise Workplace AI data. It is authenticated via API key (as defined in Control Hub) and was the original use case for the python library.&#x20;
 
 {% hint style="info" %}
-The DS API may be retired in a future Aiimi Insight Engine release, we recommend using the Search API wrapper as an alternative if possible.
+The DS API may be retired in a future Workplace AI release, we recommend using the Search API wrapper as an alternative if possible.
 {% endhint %}
 
 ### Example
@@ -14,9 +14,9 @@ from aiimi_insight_engine.api import AiimiInsightEngine
 <strong># Initialise an API instance, as a minimum you must provide the host server, or it will assume localhost 
 </strong><strong>
 </strong># The code tries to avoid requiring key or username entry here, but it is possible. 
-# By default Aiimi Insight Engine looks for the key in "ds.key", you can also provide a path to a .key file anywhere on your machine, 
+# By default Workplace AI looks for the key in "ds.key", you can also provide a path to a .key file anywhere on your machine, 
 # or simply provide the key string - this is using the 'key' parameter. 
-# Aiimi Insight Engine will use your local domain username, so rarely will you need to specify this, the only real case will be if you 
+# Workplace AI will use your local domain username, so rarely will you need to specify this, the only real case will be if you 
 # are using a service account or similar. This would be using the 'username' parameter. 
 <strong>aie = AiimiInsightEngine(host="aiimi-az-el05.aiimi.shared") 
 </strong>

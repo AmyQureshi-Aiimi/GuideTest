@@ -2,7 +2,7 @@
 
 An enrichment pipeline has one or more steps associated with one or more sources.
 
-An enrichment pipeline is used to enhance the data fed into Aiimi Insight Engine. It can have multiple steps and be associated with one or more source.&#x20;
+An enrichment pipeline is used to enhance the data fed into Workplace AI. It can have multiple steps and be associated with one or more source.&#x20;
 
 Enrichment pipeline configurations have 6 tabs that can be customised to suit your needs.
 

@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Aiimi Insight Engine gives you the ability to enforce a code of conduct when logging in to Aiimi Insight Engine for the first time. Should a user reject the code of conduct that user will not be able to use Aiimi Insight Engine. &#x20;
+Workplace AI gives you the ability to enforce a code of conduct when logging in to Workplace AI for the first time. Should a user reject the code of conduct that user will not be able to use Workplace AI. &#x20;
 
 ### Create A Code Of Conduct
 

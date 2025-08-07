@@ -1,10 +1,10 @@
 # Apply Sensitivity Label
 
-You can add classifications from Aiimi Insight Engine to a file at source with Microsoft Purview. This requires Microsoft Purview to be configured by an administrator.&#x20;
+You can add classifications from Workplace AI to a file at source with Microsoft Purview. This requires Microsoft Purview to be configured by an administrator.&#x20;
 
 ### **Limitations**
 
-* This is only possible when running Aiimi Insight Engine on Microsoft Window software.
+* This is only possible when running Workplace AI on Microsoft Window software.
 * The labels will only apply to Microsoft Office files and PDF files. Attempts to apply these to other types of files will result in errors.
 
 ## **Prerequisites**
@@ -24,7 +24,7 @@ It needs an app registration in the Azure tenant associated with your Purview or
 
 * **UnifiedPolicy.Tenant.Read** - This enables the tenant policy information to be read.
 
-- The application ID and secret must have a credential within Aiimi Insight Engine.
+- The application ID and secret must have a credential within Workplace AI.
 
 </details>
 
@@ -42,7 +42,7 @@ For support setting up this step [see our guide on Content Retrieval](content-re
 
 ### AI Classification
 
-The "AIClassification" step can apply classifications within Aiimi Insight Engine. These classification can then form what this step writes back to the file.
+The "AIClassification" step can apply classifications within Workplace AI. These classification can then form what this step writes back to the file.
 
 For support setting up this step [see our guide on AI Classification](ai-classification.md).
 
@@ -56,9 +56,9 @@ For support setting up this step [see our guide on the Copy step.](copy.md)
 
 ## Configuration
 
-1. **AIE Classification to Sensitivity Label ID** - Enter the mappings for the Aiimi Insight Engine classification and the Purview Sensitivity Label.
+1. **AIE Classification to Sensitivity Label ID** - Enter the mappings for the Workplace AI classification and the Purview Sensitivity Label.
    1. Select Add New Item
-   2. **Left Column** - Enter the Aiimi Insight Engine classification ID, entity or metadata field of the record.
+   2. **Left Column** - Enter the Workplace AI classification ID, entity or metadata field of the record.
    3. **Right Column** - Enter the GUID of the purview sensitivity label, not the name or display name.
    4. Select the tick button to add this mapping.
    5. You can select Add New Item to add another mapping. There is no limit to the number of mappings you can add.

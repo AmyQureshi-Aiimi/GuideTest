@@ -1,6 +1,6 @@
 # Vectors
 
-Vectors are used to enable semantic search within Aiimi Insight Engine. \
+Vectors are used to enable semantic search within Workplace AI. \
 Items within your system are vectorised during a Python Rest Enrichment Step and grouped together based on the vectors created in mappings.&#x20;
 
 {% hint style="info" %}

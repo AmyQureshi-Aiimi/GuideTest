@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Connect your Microsoft Teams source to Aiimi Insight Engine to make the most of your data. Once you have selected a Source System type more detail will expand to customise.
+Connect your Microsoft Teams source to Workplace AI to make the most of your data. Once you have selected a Source System type more detail will expand to customise.
 
 <details>
 
@@ -8,7 +8,7 @@ Connect your Microsoft Teams source to Aiimi Insight Engine to make the most of 
 
 ### Required Permissions
 
-Aiimi Insight Engine requires access to a few applications so the permissions for these need to be granted within Teams. This list may vary if you are crawling only Chats or only Channels.
+Workplace AI requires access to a few applications so the permissions for these need to be granted within Teams. This list may vary if you are crawling only Chats or only Channels.
 
 For support granting permissions [see Microsofts guide for Microsoft Graph Permissions Tab.](https://learn.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/authentication/tab-sso-graph-api?tabs=dotnet)
 
@@ -66,7 +66,7 @@ You can initialise this model with IndexUtils:
 3. **Excluded Chats:** Enter the Unique ID for the chats you want to exclude.
 4. **Chat Filter:** Using an OData filter choose the chats that should be crawled.
    * If this is changed it will be applied to the next new crawl, not any continuations.&#x20;
-5. **Chat Message Name Format:** Enter the string for how message names should display on Aiimi Insight Engine.
+5. **Chat Message Name Format:** Enter the string for how message names should display on Workplace AI.
    * If available the Chat name will be used if not the users present in the chat will.
 
 <figure><img src="../../../../../.gitbook/assets/image (146).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -80,7 +80,7 @@ You can initialise this model with IndexUtils:
 3. **Excluded Channels:** Enter the name of any channels that should be excluded.
 4. **Channel Filter:** Using an OData filter choose the channels that should be crawled.
    * If this is changed it will be applied to the next new crawl, not any continuations.&#x20;
-5. **Channel Post Name Format:** Enter the string for how Channel Posts should display on Aiimi Insight Engine.
+5. **Channel Post Name Format:** Enter the string for how Channel Posts should display on Workplace AI.
 
 <figure><img src="../../../../../.gitbook/assets/image (147).png" alt="" width="563"><figcaption></figcaption></figure>
 

@@ -2,7 +2,7 @@
 
 ## What Is Makers Algorithm?
 
-Makers algorithm is how Aiimi Insight Engine determines the relevancy of a result. \
+Makers algorithm is how Workplace AI determines the relevancy of a result. \
 Administrators need to set rules for query types that determine the relevancy of a search result. You can adjust the relevancy score applied to a result based on different Query Types.
 
 ### Configuring Makers Algorithm

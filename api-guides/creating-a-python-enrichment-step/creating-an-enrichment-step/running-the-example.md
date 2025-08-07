@@ -1,6 +1,6 @@
 # Running the Example
 
-To run the example (or indeed your own step) from Aiimi Insight Engine follow the following steps.
+To run the example (or indeed your own step) from Workplace AI follow the following steps.
 
 <figure><img src="../../../.gitbook/assets/image (482).png" alt=""><figcaption></figcaption></figure>
 
@@ -28,6 +28,6 @@ Now run the pipeline and you should see some debug output from the console windo
 
 Here you can see in the console output the ‘Hello World!’ that we have added.
 
-Lastly, let’s see what the item looks like in Aiimi Insight Engine by searching for ‘test.txt example hello World’.
+Lastly, let’s see what the item looks like in Workplace AI by searching for ‘test.txt example hello World’.
 
 <figure><img src="../../../.gitbook/assets/image (495).png" alt=""><figcaption></figcaption></figure>

@@ -9,7 +9,7 @@ Entities are categorised and live within entity groups. You can add entities to 
 1. From the entities page in the Control Hub select New Group.
 2. **ID** - Enter a unique ID for this group.
 3. **Display Name** - Enter a user friendly name for this group.
-4. Check which applications within Aiimi Insight Engine can use this group.
+4. Check which applications within Workplace AI can use this group.
    * Search, Manage and SAR.
 5. Select Save.
 

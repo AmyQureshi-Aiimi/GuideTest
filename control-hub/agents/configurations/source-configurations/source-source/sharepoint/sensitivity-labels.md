@@ -1,6 +1,6 @@
 # Sensitivity Labels
 
-You can apply your classifications within Aiimi Insight Engine back to Sharepoint and OneDrive using Sensitivity Labels configured in Microsoft Purview.
+You can apply your classifications within Workplace AI back to Sharepoint and OneDrive using Sensitivity Labels configured in Microsoft Purview.
 
 <details>
 
@@ -30,8 +30,8 @@ This can be set up on existing SharePoint Configurations or new ones. However, s
 To make the necessary changes, select or create an appropriate SharePoint source.
 
 1. Within the SharePoint source configuration, go to the Mappings Tab.
-2. Map the Aiimi Insight Engine classification and SharePoint sensitivity labels together.
-   1. Left Column - Enter the Aiimi Insight Engine classification value.
+2. Map the Workplace AI classification and SharePoint sensitivity labels together.
+   1. Left Column - Enter the Workplace AI classification value.
       * This is the value that is populated in the chosen entity.
    2. Right Column - Enter the GUID of the sensitivity label in Purview.
       * It can be difficult to find the GUID for a sensitivity label so we have added a utility to the SharePoint utilities to help.

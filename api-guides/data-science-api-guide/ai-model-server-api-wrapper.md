@@ -1,12 +1,12 @@
 # AI Model Server API Wrapper
 
-The AI Model Server Wrapper provides a convenient approach in python to use generative AI, extractive AI, sentence transformers and document splitting, hosted by the Aiimi Insight Engine AI Model Service.&#x20;
+The AI Model Server Wrapper provides a convenient approach in python to use generative AI, extractive AI, sentence transformers and document splitting, hosted by the Workplace AI AI Model Service.&#x20;
 
 ## Initialisation&#x20;
 
-On initialisation of a ModelServer object, details required for connection to the Aiimi Insight Engine Model Server are provided.
+On initialisation of a ModelServer object, details required for connection to the Workplace AI Model Server are provided.
 
-<table><thead><tr><th width="164.550537109375">Name</th><th width="120.3558349609375">Type</th><th>Description</th></tr></thead><tbody><tr><td>host </td><td>string </td><td>Host URI, if hosting the Model Server locally, you can typically use “http://localhost:15008/” </td></tr><tr><td>https </td><td>boolean </td><td>Optional, flag for if using HTTPS (default false) </td></tr><tr><td>verify </td><td>boolean </td><td>Flag to verify HTTPS requests, defaults to True </td></tr><tr><td>system_secret </td><td>string </td><td>Aiimi Insight Engine system secret for verification. Default value, “insightmaker” </td></tr><tr><td>ssl_context </td><td>SSLContext </td><td>Optionally, provide a python SSLContext object for SSL enabled model servers </td></tr><tr><td>encoding </td><td>string </td><td>String to use for decoding the generative stream, default “utf-8”, unlikely to require changing </td></tr></tbody></table>
+<table><thead><tr><th width="164.550537109375">Name</th><th width="120.3558349609375">Type</th><th>Description</th></tr></thead><tbody><tr><td>host </td><td>string </td><td>Host URI, if hosting the Model Server locally, you can typically use “http://localhost:15008/” </td></tr><tr><td>https </td><td>boolean </td><td>Optional, flag for if using HTTPS (default false) </td></tr><tr><td>verify </td><td>boolean </td><td>Flag to verify HTTPS requests, defaults to True </td></tr><tr><td>system_secret </td><td>string </td><td>Workplace AI system secret for verification. Default value, “insightmaker” </td></tr><tr><td>ssl_context </td><td>SSLContext </td><td>Optionally, provide a python SSLContext object for SSL enabled model servers </td></tr><tr><td>encoding </td><td>string </td><td>String to use for decoding the generative stream, default “utf-8”, unlikely to require changing </td></tr></tbody></table>
 
 #### Example&#x20;
 
@@ -127,7 +127,7 @@ Outputs from extractive AI are dictionaries with all details of extracted answer
 
 ## Sentence Transformers&#x20;
 
-The model server wrapper allows for the execution of sentence transformer models to vectorise strings. This can be useful for data science purposes as the transformers available will be the same ones used by Aiimi Insight Engine for document vectorisation and semantic search etc.&#x20;
+The model server wrapper allows for the execution of sentence transformer models to vectorise strings. This can be useful for data science purposes as the transformers available will be the same ones used by Workplace AI for document vectorisation and semantic search etc.&#x20;
 
 #### Example&#x20;
 
@@ -150,7 +150,7 @@ print(st_model.transform("Hello World!"))
 
 ## Document Splitting&#x20;
 
-The Aiimi Insight Engine model server document splitting capability is also exposed by the wrapper, the main use case for this endpoint is the testing of custom document splitting endpoints.&#x20;
+The Workplace AI model server document splitting capability is also exposed by the wrapper, the main use case for this endpoint is the testing of custom document splitting endpoints.&#x20;
 
 #### Example
 

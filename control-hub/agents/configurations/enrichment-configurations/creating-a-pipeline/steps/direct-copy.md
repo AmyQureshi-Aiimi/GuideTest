@@ -1,6 +1,6 @@
 # Direct Copy
 
-This copies items between 2 file system sources. Copy needs to be enabled on the source within Aiimi Insight Engine and the underlying credentials used to access the source need write permissions.
+This copies items between 2 file system sources. Copy needs to be enabled on the source within Workplace AI and the underlying credentials used to access the source need write permissions.
 
 ### Limitations
 

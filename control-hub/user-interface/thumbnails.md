@@ -4,7 +4,7 @@
 This is required for initial set up.
 {% endhint %}
 
-There are a few things that need to be configured for thumbnails within Aiimi Insight Engine. This includes where they are stored. Thumbnails are shown next to as many files shown in a results list as possible. Some documents can't have a thumbnail created so a default is applied. If a file does not have a thumbnail Aiimi Insight Engine will create one based of the file and the data within it.&#x20;
+There are a few things that need to be configured for thumbnails within Workplace AI. This includes where they are stored. Thumbnails are shown next to as many files shown in a results list as possible. Some documents can't have a thumbnail created so a default is applied. If a file does not have a thumbnail Workplace AI will create one based of the file and the data within it.&#x20;
 
 Any changes made to the settings regarding thumbnails will not work retroactively. Enrichment will need to be re-run for any updates to existing data.&#x20;
 

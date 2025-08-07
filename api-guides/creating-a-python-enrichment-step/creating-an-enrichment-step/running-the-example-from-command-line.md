@@ -12,4 +12,4 @@ Next simply navigate to the endpoints folder and run the step with:
 
 You can see the before structure and the modified after structure.
 
-You can simply iterate your development from here until you are happy and then call it from Aiimi Insight Engine and ensure it operates correctly.
+You can simply iterate your development from here until you are happy and then call it from Workplace AI and ensure it operates correctly.

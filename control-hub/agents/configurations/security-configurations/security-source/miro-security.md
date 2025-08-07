@@ -1,6 +1,6 @@
 # Miro Security
 
-Synchronise users and groups from Miro into Aiimi Insight Engine.
+Synchronise users and groups from Miro into Workplace AI.
 
 {% hint style="info" %}
 The secret-only credential must be configured before you configure the security.

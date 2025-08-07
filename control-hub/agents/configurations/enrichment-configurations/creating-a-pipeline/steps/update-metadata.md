@@ -1,8 +1,8 @@
 # Update Metadata
 
-Aiimi Insight Engine's enrichment capabilities can turn data and documents into actionable insights. It can extract known and unknown entities from text and classify documents based on its name or its contents.&#x20;
+Workplace AI's enrichment capabilities can turn data and documents into actionable insights. It can extract known and unknown entities from text and classify documents based on its name or its contents.&#x20;
 
-You can write the new information back to the source with an Update Metadata enrichment step. Making those insights available and actionable outside of Aiimi Insight Engine.  &#x20;
+You can write the new information back to the source with an Update Metadata enrichment step. Making those insights available and actionable outside of Workplace AI.  &#x20;
 
 {% hint style="info" %}
 This is currently only available for Sharepoint and Content Server.
@@ -20,7 +20,7 @@ This is currently only available for Sharepoint and Content Server.
 
 </details>
 
-1. **Source Field Name** - Select the Aiimi Insight Engine field that will be written back.
+1. **Source Field Name** - Select the Workplace AI field that will be written back.
 2. **Target System Field Name** - Enter the field name from the target system to map it to.&#x20;
    * This field is formatted differently depending on the source.&#x20;
      * Content Server format: `<category name>:<attribute name>`

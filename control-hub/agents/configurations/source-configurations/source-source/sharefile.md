@@ -1,6 +1,6 @@
 # ShareFile
 
-Connect your ShareFile source to Aiimi Insight Engine to make the most of your data. Once you have selected a Source System type more detail will expand to customise.
+Connect your ShareFile source to Workplace AI to make the most of your data. Once you have selected a Source System type more detail will expand to customise.
 
 1. Select the username and password to access the source from the Credentials (Username and Password) dropdown.
 2. Select the client ID and secret to access the source from the Credentials (Client ID and Secret) dropdown.

@@ -1,6 +1,6 @@
 # SharePoint Legacy
 
-Connect your SharePoint Legacy source to Aiimi Insight Engine to make the most of your data. Once you have selected a Source System type more detail will expand to customise this. For support setting up a CSOMBridge [follow our guide for CSOM Bridge Set Up.](../../../../../installation/aiimi-insight-engine-installation-windows/csom-bridge-set-up.md)
+Connect your SharePoint Legacy source to Workplace AI to make the most of your data. Once you have selected a Source System type more detail will expand to customise this. For support setting up a CSOMBridge [follow our guide for CSOM Bridge Set Up.](../../../../../installation/aiimi-insight-engine-installation-windows/csom-bridge-set-up.md)
 
 ## General <a href="#general" id="general"></a>
 

@@ -9,4 +9,4 @@
 * I am not seeing my entities in the Insight App:
   * Have you created them properly in Control Hub and made sure the mappings have been applied to the indexes.
 * I can’t copy my enrichment step DLL to the plugins folder:
-  * Have you stopped all of the Aiimi Insight Engine services and the Web Server.
+  * Have you stopped all of the Workplace AI services and the Web Server.

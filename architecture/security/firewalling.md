@@ -1,6 +1,6 @@
 # Firewalling
 
-If a firewall is in place the necessary ports need to be open for Aiimi Insight Engine. Specific port numbers are detailed in the relevant Agent Server sections.
+If a firewall is in place the necessary ports need to be open for Workplace AI. Specific port numbers are detailed in the relevant Agent Server sections.
 
 **Gateway server** - Needs to communicate with every agent server.
 

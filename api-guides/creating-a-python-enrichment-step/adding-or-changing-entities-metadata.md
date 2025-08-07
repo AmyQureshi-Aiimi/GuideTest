@@ -41,8 +41,8 @@ if __name__ == "__main__":
     do_example(work)
 ```
 
-If we add a new document, or update the test document and re-run the crawl and then re-run the enrichment pipeline we should see the following in Aiimi Insight Engine.
+If we add a new document, or update the test document and re-run the crawl and then re-run the enrichment pipeline we should see the following in Workplace AI.
 
 <figure><img src="../../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
 
-Here we can see our ner person entities in Aiimi Insight Engine document details page for the search result.
+Here we can see our ner person entities in Workplace AI document details page for the search result.

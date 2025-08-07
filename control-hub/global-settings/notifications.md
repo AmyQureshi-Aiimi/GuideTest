@@ -1,8 +1,8 @@
 # Notifications
 
-Aiimi Insight Engine can send notifications within the apps notifications area or to a users email. Notifications and alerts are based on a user’s permissions and role.&#x20;
+Workplace AI can send notifications within the apps notifications area or to a users email. Notifications and alerts are based on a user’s permissions and role.&#x20;
 
-Aiimi Insight Engine supports SMS notifications using the Pinpoint provider, however, you will need an account with Pinpoint to use this.
+Workplace AI supports SMS notifications using the Pinpoint provider, however, you will need an account with Pinpoint to use this.
 
 {% hint style="info" %}
 You will need to configure the Notifications Processor Job to run notifications.
@@ -10,7 +10,7 @@ You will need to configure the Notifications Processor Job to run notifications.
 
 ## General Configuration
 
-1. **Notifications Interval (seconds)** - Choose how frequently Aiimi Insight Engine checks for new notifications. Enter the time between checks within Notification Interval in seconds.&#x20;
+1. **Notifications Interval (seconds)** - Choose how frequently Workplace AI checks for new notifications. Enter the time between checks within Notification Interval in seconds.&#x20;
    * Having these too frequently can cause system performance problems.
 2. **Record Events to enable User Notifications** - Check this to enable users to receive notifications.
 

@@ -1,6 +1,6 @@
 # Agent Servers
 
-Each Aiimi Insight Engine agent runs as a Windows or Linux service. They listen and communicate with gateways using ports. They also locally write logs and can generate local temporary data.
+Each Workplace AI agent runs as a Windows or Linux service. They listen and communicate with gateways using ports. They also locally write logs and can generate local temporary data.
 
 ### Specific communications:
 
@@ -20,7 +20,7 @@ Each Aiimi Insight Engine agent runs as a Windows or Linux service. They listen 
 
 The security agent requires network access to the Elasticsearch cluster as outlined in the firewalling guide. Default port: **9200**
 
-[Read more about Aiimi Insight Engine Firewalling.](firewalling.md)
+[Read more about Workplace AI Firewalling.](firewalling.md)
 
 ### Azure Directory Connection
 
@@ -34,7 +34,7 @@ If you use other security repositories such as Azure AD or OpenText Content Serv
 
 By default, the windows service will run as the local system account. You should not need to change this. The account needs:
 
-* Read access to the installation folder for Aiimi Insight Engine.
+* Read access to the installation folder for Workplace AI.
 * Write access to the logs folder.
 * Read access to the security certificates used to secure communications with Elasticsearch.
 
@@ -48,7 +48,7 @@ By default, the windows service will run as the local system account. You should
 
 The source agent requires network access to the Elasticsearch cluster as outlined in the firewalling guide. Default port: **9200**
 
-[Read more about Aiimi Insight Engine Firewalling.](firewalling.md)
+[Read more about Workplace AI Firewalling.](firewalling.md)
 
 ### Source System Connection
 
@@ -58,7 +58,7 @@ The source agent requires network access to all source systems. Default port: **
 
 By default, the windows service will run as the local system account. You should not need to change this. The account needs:
 
-* Read access to the installation folder for Aiimi Insight Engine.
+* Read access to the installation folder for Workplace AI.
 * Write access to the logs folder.
 * Read access to the security certificates used to secure communications with Elasticsearch.
 
@@ -72,7 +72,7 @@ By default, the windows service will run as the local system account. You should
 
 The content agent requires network access to the Elasticsearch cluster as outlined in the firewalling guide. Default port: **9200**
 
-[Read more about Aiimi Insight Engine Firewalling.](firewalling.md)
+[Read more about Workplace AI Firewalling.](firewalling.md)
 
 ### Content Agent Connection
 
@@ -82,7 +82,7 @@ Default port: **2225**
 
 By default, the windows service will run as the local system account. You should not need to change this. The account needs:
 
-* Read access to the installation folder for Aiimi Insight Engine.
+* Read access to the installation folder for Workplace AI.
 * Write access to the logs folder.
 * Read access to the security certificates used to secure communications with Elasticsearch.
 * Write access to the folder used to cache the thumbnails (configured in the control hub).
@@ -97,7 +97,7 @@ By default, the windows service will run as the local system account. You should
 
 The enrichment agent requires network access to the Elasticsearch cluster as outlined in the firewalling guide. Default port: **9200**
 
-[Read more about Aiimi Insight Engine Firewalling.](firewalling.md)
+[Read more about Workplace AI Firewalling.](firewalling.md)
 
 ### Tika Agent Connection
 
@@ -112,7 +112,7 @@ Default port: **2223**
 
 By default, the windows service will run as the local system account. You should not need to change this. The account needs:
 
-* Read access to the installation folder for Aiimi Insight Engine.
+* Read access to the installation folder for Workplace AI.
 * Write access to the logs folder.
 * Read access to the security certificates used to secure communications with Elasticsearch.
 
@@ -126,7 +126,7 @@ By default, the windows service will run as the local system account. You should
 
 The job agent requires network access to the Elasticsearch cluster as outlined in the firewalling guide. Default port: **9200**
 
-[Read more about Aiimi Insight Engine Firewalling.](firewalling.md)
+[Read more about Workplace AI Firewalling.](firewalling.md)
 
 ### Job Agent Port
 
@@ -136,7 +136,7 @@ Default port: **2220**
 
 By default, the windows service will run as the local system account. You should not need to change this. The account needs:
 
-* Read access to the installation folder for Aiimi Insight Engine.
+* Read access to the installation folder for Workplace AI.
 * Write access to the logs folder.
 * Read access to the security certificates used to secure communications with Elasticsearch.
 
@@ -150,7 +150,7 @@ By default, the windows service will run as the local system account. You should
 
 The OCR agent requires network access to the Elasticsearch cluster as outlined in the firewalling guide. Default port: **9200**
 
-[Read more about Aiimi Insight Engine Firewalling.](firewalling.md)
+[Read more about Workplace AI Firewalling.](firewalling.md)
 
 ### OCR Agent Port
 
@@ -160,7 +160,7 @@ Default port: **2224**
 
 By default, the windows service will run as the local system account. You should not need to change this. The account needs:
 
-* Read access to the installation folder for Aiimi Insight Engine.
+* Read access to the installation folder for Workplace AI.
 * Write access to the logs folder.
 * Read access to the security certificates used to secure communications with Elasticsearch.
 
@@ -174,7 +174,7 @@ By default, the windows service will run as the local system account. You should
 
 The migration agent requires network access to the Elasticsearch cluster as outlined in the firewalling guide. Default port: **9200**
 
-[Read more about Aiimi Insight Engine Firewalling.](firewalling.md)
+[Read more about Workplace AI Firewalling.](firewalling.md)
 
 ### Migration Agent Port
 
@@ -184,7 +184,7 @@ Default port: **2226**
 
 By default, the windows service will run as the local system account. You should not need to change this. The account needs:
 
-* Read access to the installation folder for Aiimi Insight Engine.
+* Read access to the installation folder for Workplace AI.
 * Write access to the logs folder.
 * Read access to the security certificates used to secure communications with Elasticsearch.
 
@@ -204,6 +204,6 @@ Default port: **9998**
 
 By default, the windows service will run as the local system account. You should not need to change this. The account needs:
 
-* Read access to the installation folder for Aiimi Insight Engine.
+* Read access to the installation folder for Workplace AI.
 
 </details>

@@ -1,6 +1,6 @@
 # PCI Extractor
 
-This step extracts payment card information from the content. It is usually used when configuring a compliance solution in Aiimi Insight Engine.
+This step extracts payment card information from the content. It is usually used when configuring a compliance solution in Workplace AI.
 
 {% hint style="info" %}
 You will need to create the PCI entity group in Control Hub to use this step. Please see index utilities and the create and initialise feature for PCI and PII entities.

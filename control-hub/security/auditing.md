@@ -1,6 +1,6 @@
 # Auditing
 
-Secondary auditing sends user activity to a second audit location outside of Aiimi Insight Engine. Enabling this does not change how primary auditing is logged, that is always sent to Elastic.
+Secondary auditing sends user activity to a second audit location outside of Workplace AI. Enabling this does not change how primary auditing is logged, that is always sent to Elastic.
 
 A plugin must be configured and secondary auditing must be enabled and configured in the Control Hub. We currently have a plugin for CEF Audit Provider available.
 
@@ -60,18 +60,18 @@ Once the logger is created, a matching appender is needed. The example below use
 ```
 {% endcode %}
 
-The Aiimi Insight Engine and CEF specific config is defined in the _conversionPattern,_ it defines the format of the audit message.
+The Workplace AI and CEF specific config is defined in the _conversionPattern,_ it defines the format of the audit message.
 
 You can customise the audit message with the components from the table.
 
-<table><thead><tr><th width="298.716796875">Component</th><th width="460.8087158203125">Description</th></tr></thead><tbody><tr><td>%date{yyyy-MM-dd HH:mm:ss,ffff}</td><td>The date in the specified format.</td></tr><tr><td>%P{hostname}</td><td>The hostname. This is constructed using the same logic as the agent name (without the suffix) so environmental overrides will be included.</td></tr><tr><td>%P{cefVersion}</td><td>The CEF version header. This is hardcoded to CEF:1.</td></tr><tr><td>%P{imCompany}</td><td>Aiimi</td></tr><tr><td>%P{imProduct}</td><td>The part of the Aiimi Insight Engine that produced the audit. This is calculated from the entry assembly.</td></tr><tr><td>%P{imVersion}</td><td>The product version. This is calculated from build tag, which should be the version e.g. 2024.02.1.</td></tr><tr><td>%P{imEventType}</td><td>The type of event: analytics, collection, view_folder, hit, linkHit, search or tool_call.</td></tr><tr><td>%P{imEventName}</td><td>The sub type of event. For example, for hit it could be preview or download.</td></tr><tr><td>%P{imEventSeverity}</td><td>As this is an audit it defaults to the CEF medium (5).</td></tr><tr><td>%P{imEventProperties}</td><td>Additional properties formatted as per the CEF extension field. The specifics depend on the event type, this could include: user, email, search terms, query string, etc.</td></tr></tbody></table>
+<table><thead><tr><th width="298.716796875">Component</th><th width="460.8087158203125">Description</th></tr></thead><tbody><tr><td>%date{yyyy-MM-dd HH:mm:ss,ffff}</td><td>The date in the specified format.</td></tr><tr><td>%P{hostname}</td><td>The hostname. This is constructed using the same logic as the agent name (without the suffix) so environmental overrides will be included.</td></tr><tr><td>%P{cefVersion}</td><td>The CEF version header. This is hardcoded to CEF:1.</td></tr><tr><td>%P{imCompany}</td><td>Aiimi</td></tr><tr><td>%P{imProduct}</td><td>The part of the Workplace AI that produced the audit. This is calculated from the entry assembly.</td></tr><tr><td>%P{imVersion}</td><td>The product version. This is calculated from build tag, which should be the version e.g. 2024.02.1.</td></tr><tr><td>%P{imEventType}</td><td>The type of event: analytics, collection, view_folder, hit, linkHit, search or tool_call.</td></tr><tr><td>%P{imEventName}</td><td>The sub type of event. For example, for hit it could be preview or download.</td></tr><tr><td>%P{imEventSeverity}</td><td>As this is an audit it defaults to the CEF medium (5).</td></tr><tr><td>%P{imEventProperties}</td><td>Additional properties formatted as per the CEF extension field. The specifics depend on the event type, this could include: user, email, search terms, query string, etc.</td></tr></tbody></table>
 
 ## Control Hub Configuration
 
 Once you have set up the logger and appender you need to enable and configure secondary auditing in Control Hub.
 
 1. Within the Control Hub go to Security > Auditing.
-2. **Secondary Auditing Interests** - Check which event types from Aiimi Insight Engine are sent to the secondary audit.
+2. **Secondary Auditing Interests** - Check which event types from Workplace AI are sent to the secondary audit.
 3. **Secondary Audit Provider** - Select the provider for this secondary audit.
    * This is currently limited to CEFAudit only.
 4. **Logger Name** - Enter the name of the log4net logger created above.

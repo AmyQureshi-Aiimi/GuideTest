@@ -1,6 +1,6 @@
 # Google Directory
 
-The Google Directory Secondary Security Sync ensures users and groups from Google mean something to Aiimi Insight Engine. Running this sync will give users visibility of the files they have access to in Google Drive.
+The Google Directory Secondary Security Sync ensures users and groups from Google mean something to Workplace AI. Running this sync will give users visibility of the files they have access to in Google Drive.
 
 It takes the user aliases and groups from Google and indexes this in a secondary set of security indices. These indices are used during permission trimming for files, not for authentication.
 
@@ -8,7 +8,7 @@ It takes the user aliases and groups from Google and indexes this in a secondary
 
 <summary>Google Cloud Project</summary>
 
-Aiimi Insight Engine's Google Drive Connector needs a project. A Google Cloud Project is required for Google Cloud Services such as managing APIs and resource permissions.
+Workplace AI's Google Drive Connector needs a project. A Google Cloud Project is required for Google Cloud Services such as managing APIs and resource permissions.
 
 For information on creating a project [see Google's documentation on creating and managing projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects). ([https://cloud.google.com/resource-manager/docs/creating-managing-projects](https://cloud.google.com/resource-manager/docs/creating-managing-projects))
 
@@ -18,7 +18,7 @@ For information on creating a project [see Google's documentation on creating an
 
 <summary>Required APIs</summary>
 
-Aiimi Insight Engine's Google Drive Security Sync requires 1 API to be enabled on the relevant project.
+Workplace AI's Google Drive Security Sync requires 1 API to be enabled on the relevant project.
 
 1. Admin SDK API
 
@@ -48,13 +48,13 @@ Admin API Privileges - Groups - Read
 
 <summary>API Secret Key</summary>
 
-Your service account requires an API secret key for a secure connection. The secret key is used as a secret-only credential in Aiimi Insight Engine.
+Your service account requires an API secret key for a secure connection. The secret key is used as a secret-only credential in Workplace AI.
 
 * _We recommend you download the key as a JSON file when prompted._
 
 Once generated your private key will be downloaded to your machine. You must store this securely as Google does not store it and you cannot regenerate it.
 
-Once the JSON is downloaded, use its contents to create a secret-only credential in Aiimi Insight Engine.
+Once the JSON is downloaded, use its contents to create a secret-only credential in Workplace AI.
 
 _For support setting up a secret-only credential_ [see our guide on creating secret-only credentials.](../../../../security/credentials.md)
 
@@ -91,9 +91,9 @@ For more information on delegating authority [see Google's documentation on Dele
 
 #### **Mappings**
 
-1. **Match Users On:** Choose how Google and Aiimi Insight Engine usernames are linked.&#x20;
+1. **Match Users On:** Choose how Google and Workplace AI usernames are linked.&#x20;
    * Exact match - Both usernames match exactly.&#x20;
-   * Alternative Domain - The domain in your Google Directory if different to Aiimi Insight Engine.
+   * Alternative Domain - The domain in your Google Directory if different to Workplace AI.
 2. **Alternative Domain:** If you select an alternative domain, enter the domain your Google Directory uses to identify users.
 3. **Groups when synchronising users:** Check this to allow group access.
 4. Continue to the Sync tab and configure the settings for your security source.

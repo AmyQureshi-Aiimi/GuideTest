@@ -1,6 +1,6 @@
 # Reuters Connect
 
-Connect Reuters News to Aiimi Insight Engine to make the most of everythign available to you. Once you have selected a Source System type more detail will expand to customise this.
+Connect Reuters News to Workplace AI to make the most of everythign available to you. Once you have selected a Source System type more detail will expand to customise this.
 
 ## Connection
 
@@ -49,13 +49,13 @@ You can add more searches by selecting Add or remove them by selecting Delete ne
 
 ### Entity Options
 
-You can directly map the OpenCalais entities from Reuters to Aiimi Insight Engines entities. You can also map multiple OpenCalais entities to one Aiimi Insight Engine entity.
+You can directly map the OpenCalais entities from Reuters to Workplace AIs entities. You can also map multiple OpenCalais entities to one Workplace AI entity.
 
 1. Select Add new item to add an entity details.
 2. Enter the OpenCalais name in the first (left) box.
    * The Uri prefix is not needed and must be removed.
    * Example - Person or Geo/County
-3. Enter the Aiimi Insight Engine entity name in the second (right) box.
+3. Enter the Workplace AI entity name in the second (right) box.
    * This must be fully qualified.
    * Example - entities.ner.person
 

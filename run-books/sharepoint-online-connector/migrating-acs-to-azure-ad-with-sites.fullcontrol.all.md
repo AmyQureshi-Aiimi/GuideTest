@@ -60,7 +60,7 @@ New-PnPAzureCertificate -OutPfx pnp.pfx -OutCert pnp.cer -CertificatePassword (C
 2. Save the certificate files in your preferred location and give them a strong password.&#x20;
    * Make sure both the .cer and .pfx files are saved. \
      The .cer (public key) will be uploaded to the registered application in Azure Portal. \
-     The .pfx (private key) will be uploaded to the Credential Store in Aiimi Insight Engine Control Hub.&#x20;
+     The .pfx (private key) will be uploaded to the Credential Store in Workplace AI Control Hub.&#x20;
 
 ### Apply the certificate to the registered application&#x20;
 
@@ -101,9 +101,9 @@ The **Sites.FullControll.All** API permission has been applied to the registered
 
 ***
 
-## Aiimi Insight Engine - Credentials&#x20;
+## Workplace AI - Credentials&#x20;
 
-Now everything is configured in Azure Portal, you need to create credentials in Aiimi Insight Engine's Control Hub.&#x20;
+Now everything is configured in Azure Portal, you need to create credentials in Workplace AI's Control Hub.&#x20;
 
 1. Within the Control Hub select Credentials.&#x20;
 2. On the Credentials page, select New Credential.&#x20;
@@ -120,11 +120,11 @@ Now everything is configured in Azure Portal, you need to create credentials in 
    * Only valid certificates can be uploaded.&#x20;
 9. Select Create.&#x20;
 
-Your new certificate credential is now in the Aiimi Insight Engine Credential Store.&#x20;
+Your new certificate credential is now in the Workplace AI Credential Store.&#x20;
 
 ***
 
-## Aiimi Insight Engine – Source Configuration&#x20;
+## Workplace AI – Source Configuration&#x20;
 
 Now the registered application and credentials are set up, you can configure a SharePoint source. &#x20;
 

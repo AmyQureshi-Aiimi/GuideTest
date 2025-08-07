@@ -1,6 +1,6 @@
 # Active Directory
 
-Synchronise users and groups from your Active Directory into Aiimi Insight Engine.
+Synchronise users and groups from your Active Directory into Workplace AI.
 
 1. **Security System:** Select Active Directory from the dropdown.
 
@@ -15,7 +15,7 @@ Add the details for the server including credentials and domain names.
 4. **Verify Certificate:** Uncheck this to allow self assigned certificates.&#x20;
 
 {% hint style="danger" %}
-This will reduce the security of Aiimi Insight Engine.
+This will reduce the security of Workplace AI.
 {% endhint %}
 
 5. **Credential:** Choose the server credential to use from the dropdown.
@@ -52,7 +52,7 @@ Set the parameters that are used when syncing with groups.
 
 ## Group Mappings
 
-Match up the Aiimi Insight Engine property with the AD Field Name. If you have any variation in naming make sure they are updated within the AD Field Name field.&#x20;
+Match up the Workplace AI property with the AD Field Name. If you have any variation in naming make sure they are updated within the AD Field Name field.&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2023-02-13 at 17.29.29.png" alt=""><figcaption></figcaption></figure>
 
@@ -64,7 +64,7 @@ Enter the details to locate users that need syncing. This is filled in by defaul
 
 1. **Users Path:** Enter the Directory Location for the Users that need to sync.
 2. **Users Filters:** Enter any filters that need to be used when searching for users.
-3. **Additional Group Membership:** Add users to groups for Aiimi Insight Engine only.&#x20;
+3. **Additional Group Membership:** Add users to groups for Workplace AI only.&#x20;
    * This will not change any settings in your Active Directory.&#x20;
    * Any groups added here will not be domain verified.
 4. **Excluded Group memberships:** Add groups here to remove them from a users membership.
@@ -78,7 +78,7 @@ Enter the details to locate users that need syncing. This is filled in by defaul
 
 ## User Mappings
 
-Within User Mappings match up the Aiimi Insight Engine properties with the AD Field Name. Most of these should stay the same across all systems. If you have any variation in naming make sure they are updated within the AD Field Name field.&#x20;
+Within User Mappings match up the Workplace AI properties with the AD Field Name. Most of these should stay the same across all systems. If you have any variation in naming make sure they are updated within the AD Field Name field.&#x20;
 
 <figure><img src="../../../../../.gitbook/assets/Screenshot 2023-02-13 at 17.28.48.png" alt=""><figcaption></figcaption></figure>
 

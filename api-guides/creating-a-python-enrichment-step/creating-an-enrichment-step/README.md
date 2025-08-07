@@ -52,7 +52,7 @@ def initialise():
 
 The end point file must contain a function with the same name. Here we just chain onto a do\_\<endpoint> method which does the work. We do this to make testing easy (this will become clear shortly).
 
-The request will contain the JSON payload that is sent to the step by Aiimi Insight Engine. We call this the ‘work item’. Essentially, the step manipulates this structure and returns it.
+The request will contain the JSON payload that is sent to the step by Workplace AI. We call this the ‘work item’. Essentially, the step manipulates this structure and returns it.
 
 ```
 # this is the function that will get called
@@ -77,7 +77,7 @@ def do_example(work):
     return work
 ```
 
-We include a main in the Python code so we can call the step directly from the command line. This makes development easy. You need to create a work item structure (there is a simple one here). You can print out what Aiimi Insight Engine sends you to and then code up something from this. For this type of testing you only need to include the fields that you are using an not the whole work item.
+We include a main in the Python code so we can call the step directly from the command line. This makes development easy. You need to create a work item structure (there is a simple one here). You can print out what Workplace AI sends you to and then code up something from this. For this type of testing you only need to include the fields that you are using an not the whole work item.
 
 ```
 if __name__ == "__main__":
