@@ -1,7 +1,3 @@
----
-description: A list of Workplace AI versions and links to their documentation.
----
-
 # Versions
 
 ## 2025
