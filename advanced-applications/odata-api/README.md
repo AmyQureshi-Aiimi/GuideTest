@@ -1,8 +1,8 @@
 # OData API
 
-Create one off or regular reports with value effortlessly. Our OData API connects Aiimi Insight Engine and your 3rd party analytics tools. Use the enriched data from Aiimi Insight Engine to create unique, data-driven visualisations.
+Create one off or regular reports with value effortlessly. Our OData API connects Workplace AI and your 3rd party analytics tools. Use the enriched data from Workplace AI to create unique, data-driven visualisations.
 
-Query the data using the configured entity sets and OData standards $functions. The data is identical to how Aiimi Insight Engine would show it, the same data and order.
+Query the data using the configured entity sets and OData standards $functions. The data is identical to how Workplace AI would show it, the same data and order.
 
 You can connect this API from your 3rd party tools that accept OData such as Power BI and Tableau.
 

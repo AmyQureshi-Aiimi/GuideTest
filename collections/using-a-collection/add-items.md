@@ -41,7 +41,7 @@ Then
 
 ## Import Items
 
-When gathering information for a collection some crucial information may not be available in Aiimi Insight Engine. This could be information stored on other sources or paper documents for example.
+When gathering information for a collection some crucial information may not be available in Workplace AI. This could be information stored on other sources or paper documents for example.
 
 For certain collection types you will still be able to add these items to a collection.
 
@@ -55,4 +55,4 @@ For certain collection types you will still be able to add these items to a coll
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
 
-When an item is uploaded to a collection it won't be found within the search application. It will go through some enrichment steps like the other items in Aiimi Insight Engine. This will allow you to preview it and perform a search within the item.&#x20;
+When an item is uploaded to a collection it won't be found within the search application. It will go through some enrichment steps like the other items in Workplace AI. This will allow you to preview it and perform a search within the item.&#x20;

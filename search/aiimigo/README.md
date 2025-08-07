@@ -26,7 +26,7 @@ When you have many documents to review or search through Aiimigo can summaries e
 {% step %}
 ### Document Sparring
 
-Aiimigo can review an item in Aiimi Insight Engine. It's like a second pair of eyes that can check your documents. You can have it check for inaccuracies, ensure the information is clear and make suggestions on where to improve the document based on its need.  &#x20;
+Aiimigo can review an item in Workplace AI. It's like a second pair of eyes that can check your documents. You can have it check for inaccuracies, ensure the information is clear and make suggestions on where to improve the document based on its need.  &#x20;
 {% endstep %}
 
 {% step %}

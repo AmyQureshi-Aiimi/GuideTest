@@ -1,6 +1,6 @@
 # Redacting Information
 
-You can redact sensitive information from your documents within Aiimi Insight Engine before sharing them. Items may be redacted for many reasons including, if you are sending it to someone as part of a Subject Access Request.
+You can redact sensitive information from your documents within Workplace AI before sharing them. Items may be redacted for many reasons including, if you are sending it to someone as part of a Subject Access Request.
 
 ## Redact an Item
 

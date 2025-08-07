@@ -1,5 +1,5 @@
 ---
-description: A list of Aiimi Insight Engine versions and links to their documentation.
+description: A list of Workplace AI versions and links to their documentation.
 ---
 
 # Versions

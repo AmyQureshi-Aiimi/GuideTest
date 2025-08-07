@@ -13,7 +13,7 @@ Find your existing bulk searches and create a new one from My Searches.
 3. Select Saved Searches then Bulk Searches.
 
 {% hint style="info" %}
-If you can not see bulk searches it is likely disabled. Contact your Aiimi Insight Engine administrator to enable this feature.
+If you can not see bulk searches it is likely disabled. Contact your Workplace AI administrator to enable this feature.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (47).png" alt="" width="375"><figcaption></figcaption></figure>

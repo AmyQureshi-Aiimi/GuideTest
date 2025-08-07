@@ -1,6 +1,6 @@
 # Create a Manual Request
 
-Creating and completing a data request can all be done in Aiimi Insight Engine.&#x20;
+Creating and completing a data request can all be done in Workplace AI.&#x20;
 
 1. Select SAR from the application menu.&#x20;
    * Here you will find all open SARs and requests.&#x20;

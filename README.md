@@ -1,10 +1,10 @@
-# Introducing Aiimi Insight Engine
+# Introducing Workplace AI
 
-Imagine using one app to find all the information you need to do your job, information you didn’t know existed and you didn’t know you wanted. Aiimi Insight Engine is a Search Engine that gives you access to information when you need it. Aiimi Insight Engine has four layers that work together to create a searchable data universe. It's secure and full of valuable new insights.
+Imagine using one app to find all the information you need to do your job, information you didn’t know existed and you didn’t know you wanted. Workplace AI is a Search Engine that gives you access to information when you need it. Workplace AI has four layers that work together to create a searchable data universe. It's secure and full of valuable new insights.
 
 ### Discovery&#x20;
 
-Layer 1 - Aiimi insight engine goes through every repository, to create a catalogue of everything in your organisation. It looks for file names, properties, where it's stored and who can access it.
+Layer 1 - Workplace AI goes through every repository, to create a catalogue of everything in your organisation. It looks for file names, properties, where it's stored and who can access it.
 
 ### Enrichment&#x20;
 

@@ -83,7 +83,7 @@ apiURL/odata/entitysetname('odataID')
 
 ## Saved Search
 
-You can use any saved searches from Aiimi Insight Engine. You can reference them by Name or ID.
+You can use any saved searches from Workplace AI. You can reference them by Name or ID.
 
 1. If you do not provide a type in the query it will default to name.
 2. it is not possible to query ?savedsearch and $search together.
@@ -104,7 +104,7 @@ If the saved search does not have a unique name you can use the ID.
 ?savedSearch={savedSearchID}&type=id
 ```
 
-You can find your saved search ID within Aiimi Insight Engine.
+You can find your saved search ID within Workplace AI.
 
 1. Go to your saved searches.
 2. Select the options menu of the relevant saved search.

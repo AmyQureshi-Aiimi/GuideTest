@@ -10,7 +10,7 @@ Searches are performed in the order they are in the CSV and notifications will a
 2. Choose when notifications should be sent from the Notify when options.&#x20;
    * **Results are found for the first time -** Best for keeping up to date with new items.
    * **Results are found for the first time or a result is updated -** Best for monitoring the activity on new and existing results.
-3. Select a Priority flag from High, Medium or Low for these notifications. This will apply to emails and Aiimi Insight Engine notifications where possible.
+3. Select a Priority flag from High, Medium or Low for these notifications. This will apply to emails and Workplace AI notifications where possible.
 
 <figure><img src="../../../../.gitbook/assets/image (245).png" alt="" width="509"><figcaption></figcaption></figure>
 
@@ -28,6 +28,6 @@ Choose the users that will also receive notifications for this bulk search.
 Once your bulk search is created it will appear in your Saved Searches for you to manage.&#x20;
 
 {% hint style="info" %}
-Please note, Aiimi Insight Engine admins are able to disable notifications and delete any bulk search.
+Please note, Workplace AI admins are able to disable notifications and delete any bulk search.
 {% endhint %}
 

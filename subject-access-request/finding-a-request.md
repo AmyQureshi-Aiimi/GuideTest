@@ -1,6 +1,6 @@
 # Finding a Request
 
-You can see all you open and completed requests in the My SARs area of Aiimi Insight Engine.&#x20;
+You can see all you open and completed requests in the My SARs area of Workplace AI.&#x20;
 
 1. Select SAR from the application menu.&#x20;
 2. From here you can see My SARs, All SARs, Analytics and Settings.

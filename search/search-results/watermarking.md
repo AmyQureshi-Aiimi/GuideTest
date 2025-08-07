@@ -1,6 +1,6 @@
 # Watermarking
 
-A watermark can be applied to any document or data exported from Aiimi Insight Engine. This ensures that items can be handled correctly and only used for their intended purpose.&#x20;
+A watermark can be applied to any document or data exported from Workplace AI. This ensures that items can be handled correctly and only used for their intended purpose.&#x20;
 
 ## Adding a Watermark
 

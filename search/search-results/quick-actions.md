@@ -6,7 +6,7 @@ There are a number of quick actions that can be performed from a result. This in
 
 <summary>Share an Item</summary>
 
-Share the items you find within Aiimi Insight Engine with other users. You can share items from your results list or the preview.
+Share the items you find within Workplace AI with other users. You can share items from your results list or the preview.
 
 1. Select the Option menu from the quick action bar or preview navigation.
 2. Select Share Item from the menu. This will open a new modal.
@@ -26,7 +26,7 @@ Share the items you find within Aiimi Insight Engine with other users. You can s
 
 <summary>Mark as Useful</summary>
 
-Items within Aiimi Insight Engine can be marked as useful by any user. This can make it easier for others to find what they are looking for and the most relevant information. It can help people across the business deliver more informed decision-making.&#x20;
+Items within Workplace AI can be marked as useful by any user. This can make it easier for others to find what they are looking for and the most relevant information. It can help people across the business deliver more informed decision-making.&#x20;
 
 1. Hover over an item to show the quick actions menu.
    * _When you tab into a result card the actions menu will also become available._

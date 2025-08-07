@@ -76,7 +76,7 @@ You can add items to a SAR collection from a search in the same way you add thin
 
 ## Importing information for a SAR&#x20;
 
-You can import information for a SAR response. Imported data is added to a SAR response but can not be accessed via any search in Aiimi Insight Engine.
+You can import information for a SAR response. Imported data is added to a SAR response but can not be accessed via any search in Workplace AI.
 
 1. Select the SAR you want to add information to.&#x20;
 2. Select Import.&#x20;
@@ -89,7 +89,7 @@ You can import 1 file at a time with a maximum size of 30MB.
 
 1. Select the Item Option menu of the item you want to remove.
 2. Select Remove from Collection
-   * If the item has been added to the SAR from Aiimi Insight Engine it will be removed from the collection.
+   * If the item has been added to the SAR from Workplace AI it will be removed from the collection.
    * If the item has been imported to the SAR the item will be removed from the SAR and the system so others can not find it.&#x20;
 
 You can select multiple items from your collection to remove them all at the same time.

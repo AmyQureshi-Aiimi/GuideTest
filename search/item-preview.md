@@ -1,6 +1,6 @@
 # Item Preview
 
-You can preview many items within Aiimi Insight Engine without needing to install specific software.&#x20;
+You can preview many items within Workplace AI without needing to install specific software.&#x20;
 
 View items alongside your search results, easily switching between results to find what you need. Investigate an item further using the full screen preview to help you really find what you need.
 
@@ -8,7 +8,7 @@ If a result can't be previewed you will be taken to the results details page whe
 
 ## Inline Preview
 
-Preview a result to see if it's what you need without leaving your search results. Inline previews can be accessed from the result lists across Aiimi Insight Engine.&#x20;
+Preview a result to see if it's what you need without leaving your search results. Inline previews can be accessed from the result lists across Workplace AI.&#x20;
 
 {% hint style="info" %}
 This is only available on desktop. For mobile and tablet, items will open in the full screen preview.
@@ -52,7 +52,7 @@ You can also change the type of search performed from the search term navigation
 
 ## Full Screen Preview
 
-You can preview many items and results within Aiimi Insight Engine without any specific software installed.&#x20;
+You can preview many items and results within Workplace AI without any specific software installed.&#x20;
 
 1. Open the inline preview by selecting the title of the item or preview from the options menu of the item.
 2. Within the inline preview, select Expand Preview next to the title.

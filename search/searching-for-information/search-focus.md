@@ -1,6 +1,6 @@
 # Search Focus
 
-Because, Aiimi Insight Engine contains information from all over your business, It can get confusing trying to find that one piece of information you need. It can be like looking for a needle in a haystack.
+Because, Workplace AI contains information from all over your business, It can get confusing trying to find that one piece of information you need. It can be like looking for a needle in a haystack.
 
 When you're searching for information you likely have a specific focus in mind. You may be looking for maintenance guides for assets on site or content that has a high PII risk.
 

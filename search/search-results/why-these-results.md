@@ -1,14 +1,14 @@
 # Why These Results
 
-Aiimi Insight Engine takes into account many variables when showing certain result. It looks at more than the terms searched.
+Workplace AI takes into account many variables when showing certain result. It looks at more than the terms searched.
 
 ### Relevancy&#x20;
 
-Aiimi Insight Engine calculates how well a result matches your search and how relevant it is to you. It looks at the name, content and properties of a result to calculate how well it matches your search. Once each result has a relevancy score results are ordered from highest to lowest by default.
+Workplace AI calculates how well a result matches your search and how relevant it is to you. It looks at the name, content and properties of a result to calculate how well it matches your search. Once each result has a relevancy score results are ordered from highest to lowest by default.
 
 ### Security and access&#x20;
 
-All security and permission on a file, from the source, will apply within Aiimi Insight Engine. This means you will only see the information that you have access to for security and privacy.
+All security and permission on a file, from the source, will apply within Workplace AI. This means you will only see the information that you have access to for security and privacy.
 
 ### Minimum Matching Terms
 
@@ -39,7 +39,7 @@ Find the terms you have searched within the results list and preview. Making it 
 
 When you perform a search it can be difficult to understand why a result has been returned. Administrators can turn on why my search matched to help you find what you're looking for.
 
-Why my search matched can help find the best results in Aiimi Insight Engine. It shows if a result matched your search term, phrases or filters and how many times that happens in the result.
+Why my search matched can help find the best results in Workplace AI. It shows if a result matched your search term, phrases or filters and how many times that happens in the result.
 
 <img src="../../.gitbook/assets/image (76).png" alt="" data-size="original">
 

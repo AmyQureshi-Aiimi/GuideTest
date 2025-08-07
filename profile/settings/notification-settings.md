@@ -6,7 +6,7 @@
 
 Choose how you receive notifications and what you receive them about.
 
-* **Live notifications** - Check this to receive on screen notifications while you are within Aiimi Insight Engine.
+* **Live notifications** - Check this to receive on screen notifications while you are within Workplace AI.
 * **Email notifications** - Check this to receive notifications via email.
 * **Notify me when** - Check the events you will be notified about from the list.
 

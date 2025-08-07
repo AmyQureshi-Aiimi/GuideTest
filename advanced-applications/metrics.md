@@ -1,6 +1,6 @@
 # Metrics
 
-Metrics within Aiimi Insight Engine is a great way to see the details around how it works and is being used. You likely won't need to use the Metrics area everyday but it's a handy tool to have.
+Metrics within Workplace AI is a great way to see the details around how it works and is being used. You likely won't need to use the Metrics area everyday but it's a handy tool to have.
 
 
 
@@ -24,4 +24,4 @@ You can see what users think of the app, and how they rate it. This can help you
 
 ![](<../.gitbook/assets/image (188).png>)
 
-You can also see the volume of users accessing Aiimi Insight Engine each day, visits to different pages, and the most popular search terms.&#x20;
+You can also see the volume of users accessing Workplace AI each day, visits to different pages, and the most popular search terms.&#x20;

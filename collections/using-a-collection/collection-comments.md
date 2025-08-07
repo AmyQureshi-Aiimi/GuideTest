@@ -1,6 +1,6 @@
 # Collection Comments
 
-You can add comments to a collection for others information or to remind yourself in the future. Exported collections will not have these comments, but will stay in Aiimi Insight Engine.
+You can add comments to a collection for others information or to remind yourself in the future. Exported collections will not have these comments, but will stay in Workplace AI.
 
 ## Adding
 

@@ -1,6 +1,6 @@
 # Review Search
 
-Choose the sources each search/row of your file will be searched within. You can choose any number of sources from those available to you within Aiimi Insight Engine.
+Choose the sources each search/row of your file will be searched within. You can choose any number of sources from those available to you within Workplace AI.
 
 {% hint style="info" %}
 By default the sources selected are your enabled sources in search settings.

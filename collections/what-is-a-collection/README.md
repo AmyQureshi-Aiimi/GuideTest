@@ -6,7 +6,7 @@ Creating a collection doesn't duplicate the item, but creates a way to access it
 
 ## Finding your collections:
 
-You can access your collections from anywhere in Aiimi Insight Engine.&#x20;
+You can access your collections from anywhere in Workplace AI.&#x20;
 
 1. Select Collections from the top navigator.
 

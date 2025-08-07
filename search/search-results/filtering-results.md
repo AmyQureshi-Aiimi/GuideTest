@@ -42,7 +42,7 @@ When enabled by an administrator, a slider will be in your filters menu.&#x20;
 
 #### Example:&#x20;
 
-1. Search "Aiimi Insight Engine Help tips and tricks".&#x20;
+1. Search "Workplace AI Help tips and tricks".&#x20;
 2. Set your Minimum Matching Terms to 4.&#x20;
    * You will only get results with 4 or more matching terms from this phrase.
 

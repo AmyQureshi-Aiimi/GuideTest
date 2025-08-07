@@ -2,7 +2,7 @@
 
 To set up a bulk search you will need a CSV with all of your searches. A bulk search CSV can be used once or as a template for future search processes. There is no limit to the number of searches you can add to a bulk search. The only limitation is the number of results that can be returned. This is limited to 10,000 results.&#x20;
 
-A CSV file is easily created in excel but can be made in notepad or any text editor. It is a file type that separates information with a comma. It is the simplest way for Aiimi Insight Engine to read multiple searches in an organised way.
+A CSV file is easily created in excel but can be made in notepad or any text editor. It is a file type that separates information with a comma. It is the simplest way for Workplace AI to read multiple searches in an organised way.
 
 ## Creating a CSV
 
@@ -33,7 +33,7 @@ Searches are performed in the order they are in the CSV and notifications will a
 
 Once you have added all of your searches save your file as a CSV and continue to Create your bulk search.
 
-[Read how to set up a Bulk Search in Aiimi Insight Engine.](create-a-bulk-search/)
+[Read how to set up a Bulk Search in Workplace AI.](create-a-bulk-search/)
 
 </details>
 
@@ -48,8 +48,8 @@ Each value you add must be followed by a comma (,) with no space after it.
 1. The first value of your CSV must be "Search Name,"
    * The file will not upload if it is anything else.
 2. The next values in this row should contain the names of all the fields you would like to search followed by a comma (,).
-   * Each of these values will be mapped to a field within Aiimi Insight Engine.
-   * These values will vary depending on the data you're searching. They should be descriptive to help set up the bulk search within Aiimi Insight Engine.
+   * Each of these values will be mapped to a field within Workplace AI.
+   * These values will vary depending on the data you're searching. They should be descriptive to help set up the bulk search within Workplace AI.
 
 ```csv
 Example:
@@ -83,7 +83,7 @@ Owners,Tovicci,John Doe|Jon Doe,,456 Fake Street,
 
 Once you have added all of your searches save your file as a CSV and continue to Create your bulk search.
 
-[Read how to set up a Bulk Search in Aiimi Insight Engine.](create-a-bulk-search/)
+[Read how to set up a Bulk Search in Workplace AI.](create-a-bulk-search/)
 
 </details>
 

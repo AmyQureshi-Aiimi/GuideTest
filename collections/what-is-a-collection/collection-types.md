@@ -82,7 +82,7 @@ A result tag can be edited or deleted by selecting the Tag Menu.
 
 ### Tasks
 
-Create tasks that should be done as part of this collection type. These are helpful reminders on things that need to be completed and steps that must be completed. Please note: The tasks do not need to be completed within Aiimi Insight Engine to progress.
+Create tasks that should be done as part of this collection type. These are helpful reminders on things that need to be completed and steps that must be completed. Please note: The tasks do not need to be completed within Workplace AI to progress.
 
 1. Select New Task.
 2. **Name** -  Enter a Name for the task.

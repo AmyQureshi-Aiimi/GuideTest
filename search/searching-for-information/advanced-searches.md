@@ -73,7 +73,7 @@ Searching seriali\*e will return results for serialise and serialize.
 
 <summary>Multilingual Search</summary>
 
-You can perform multilingual search within Aiimi Insight Engine. This allows you to find the most relevant search results no matter the language. This allows a search to be performed in any language with the same experience and results as if you searched in English.&#x20;
+You can perform multilingual search within Workplace AI. This allows you to find the most relevant search results no matter the language. This allows a search to be performed in any language with the same experience and results as if you searched in English.&#x20;
 
 Languages must be configured by a system administrator to work.&#x20;
 

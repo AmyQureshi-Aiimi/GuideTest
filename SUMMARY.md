@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Introducing Aiimi Insight Engine](README.md)
-  * [Kashmiri Release](introducing-aiimi-insight-engine/kashmiri-release.md)
-  * [Versions](introducing-aiimi-insight-engine/versions.md)
+* [Introducing Workplace AI](README.md)
+  * [Kashmiri Release](introducing-Workplace-AI/kashmiri-release.md)
+  * [Versions](introducing-Workplace-AI/versions.md)
 
 ## Search
 
@@ -80,7 +80,7 @@
 ## Help and Support
 
 * [Leaving Feedback](help-and-support/leaving-feedback.md)
-* [Accessibility Statement for Aiimi Insight Engine](help-and-support/accessibility-statement-for-aiimi-insight-engine.md)
+* [Accessibility Statement for Workplace AI](help-and-support/accessibility-statement-for-Workplace-AI.md)
 
 ## Advanced Applications
 
