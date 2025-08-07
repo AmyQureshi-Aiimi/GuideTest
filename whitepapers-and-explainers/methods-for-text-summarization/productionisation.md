@@ -1,0 +1,7 @@
+# Productionisation
+
+As the language of choice for industrial data scientists, Python provides the widest range of mature libraries for solving data science problems.
+
+* The Natural Language Toolkit (NLTK) is a widely-used platform for computational linguistics. It provides critical and transferable functionality such as calculations of string similarity and stopword detection. An extractive summarizer can be quickly assembled using NLTK to parse sentences, generate a similarity matrix, rank sentences using an unsupervised method such as TextRank and select highest performing sentences.
+* An abstractive summariser can be architected using a deep learning technique called sequence-to-sequence modelling \[18]. Text sequences are first encoded to normalise their lengths. A neural network then decodes the sequences and predicts the next word in the sequence given the inputs. After training the model, it is applied to new sequences to compress a given text input by predicting subsequent terms.
+* Keras is a high-level API which enables fast implementation of neural network experiments. A typical summarizer implemented through Keras would clean the text, establish maximum sequence lengths, split the data into train and test sets and construct a model using a recurrent neural network architecture such as Long Short-Term Memory (LSTM). This will create encoder and decoder layers for composing summaries \[18].
