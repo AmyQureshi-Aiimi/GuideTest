@@ -1,10 +1,3 @@
----
-description: 'Release date: 16th July 2025'
-icon: pepper-hot
-cover: ../.gitbook/assets/Kashmiri.png
-coverY: 36.53426802785773
----
-
 # Kashmiri Release
 
 ## Simplifying SAR Data Management
